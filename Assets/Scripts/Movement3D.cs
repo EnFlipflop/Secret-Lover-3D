@@ -10,6 +10,7 @@ public class Movement3D : MonoBehaviour
     private Vector3 direction;
     private float horizontal;
     private float vertical;
+    
 
     private void Start()
     {

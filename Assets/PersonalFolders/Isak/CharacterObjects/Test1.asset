@@ -14,10 +14,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSystem:
     characterName: 
-    ett: 
+    hejFras: 
+    hejFrasEvent:
+      Guid:
+        Data1: -805809996
+        Data2: 1092653593
+        Data3: -1306305606
+        Data4: -1860629545
+      Path: event:/UI_click
     firstQuestion:
-      question: 
-      answer: 
-    secondQuestion1: 
-    thirdQuestion1: 
-    test: 
+      question: Gillar du mat?
+      answer: Jag gillar mat!
+    q1FollowUpQuestion1:
+      question: "Gillar du r\xF6d?"
+      answer: "Jag gillar r\xF6d!"
+    q1FollowUpQuestion2:
+      question: "Varf\xF6r?"
+      answer: Skit ner dig!
+    secondQuestion:
+      question: 123123
+      answer: 654546
+    q2FollowUpQuestion1:
+      question: 234234
+      answer: 534354
+    q2FollowUpQuestion2:
+      question: 345456
+      answer: 756534
+    thirdQuestion:
+      question: 'Du pratade om bla bla bla bla bla '
+      answer: 'Jo men precis precis pgnresgo sn sth '
+    q3FollowUpQuestion1:
+      question: haepoiapefhponsenposehnfposhefvpoashefpnvoahsepnfovhaspeofhvpasoehfv
+      answer: dfhfdghdfghdfghdfghdfghdfghdfgh
+    q3FollowUpQuestion2:
+      question: ouisernbsoiergnbposergnpboewrnpgoibew
+      answer: parhvneorhgvmposdhrgvposrgmvposdrhgmvpoisdhgv
+    "hejD\xE5Fras": 
+    "hejD\xE5FrasEvent":
+      Guid:
+        Data1: -805809996
+        Data2: 1092653593
+        Data3: -1306305606
+        Data4: -1860629545
+      Path: event:/UI_click

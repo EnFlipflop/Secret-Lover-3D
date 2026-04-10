@@ -4,9 +4,8 @@ public class Player : MonoBehaviour
 {
     [Tooltip("The range at which the player can interact with Interactables")]
     [SerializeField] private float interactRange = 3;
-    
     private Person currentPerson;
-
+    
     private void Update()
     {
         if (!GameManager.Instance.interacting)

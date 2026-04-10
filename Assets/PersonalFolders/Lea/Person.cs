@@ -9,7 +9,7 @@ public class Person : MonoBehaviour
     
     private MeshRenderer meshRenderer;
     private Material defaultMaterial;*/
-
+    [SerializeField] private CharacterScriptable characterLines;
     [SerializeField] private GameObject interactText;
     [SerializeField] private GameObject conversationScreen;
 
@@ -56,4 +56,7 @@ public class Person : MonoBehaviour
         interactText.SetActive(true);
         conversationScreen.SetActive(false);
     }
+    
+    
+    
 }

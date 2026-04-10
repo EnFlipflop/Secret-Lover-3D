@@ -1187,6 +1187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f5b21bfd975b34da60aa4d44eb1e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterLines: {fileID: 11400000, guid: e3a868cfff7243343bd78f7bb2a8dd5a, type: 2}
   interactText: {fileID: 138169929}
   conversationScreen: {fileID: 2020871804}
 --- !u!1 &1696559965
