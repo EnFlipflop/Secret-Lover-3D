@@ -641,6 +641,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  stepCD: 0
+  paramCD: 0
+  sounds: {fileID: 11400000, guid: 1f95d0ca3889fc24883f1321ddac4e33, type: 2}
+  ground:
+    serializedVersion: 2
+    m_Bits: 0
+  rayDistance: 0
 --- !u!54 &314026340
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -777,6 +784,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  letters: 0
+  letterInt: 0
+  ciggHints: 3
 --- !u!4 &452021932
 Transform:
   m_ObjectHideFlags: 0

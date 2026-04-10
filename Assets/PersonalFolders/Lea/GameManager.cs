@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +14,9 @@ public class GameManager : MonoBehaviour
     
     private static GameManager instance;
 
+    public int letters, letterInt;
+    public int ciggHints = 3;
+    
     public static GameManager Instance
     {
         get { return instance; }
@@ -42,10 +47,17 @@ public class GameManager : MonoBehaviour
         {
             camera3D = player.GetComponentInChildren<Camera3D>();
         }
+        PickLetter();
     }
 
     public void StopInteracting()
     {
         interacting = false;
+    }
+
+    private void PickLetter()
+    {
+        letterInt = Random.Range(0, letters);
+        Debug.Log(letterInt);
     }
 }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSystem:
     characterName: 
-    hejFras: 
+    hejFras: Hejsan Cowboy!
     hejFrasEvent:
       Guid:
         Data1: -805809996
@@ -32,7 +32,7 @@ MonoBehaviour:
       question: "Varf\xF6r?"
       answer: Skit ner dig!
     secondQuestion:
-      question: 123123
+      question: "This party is the bees knees! What\u2019s the occasion?"
       answer: 654546
     q2FollowUpQuestion1:
       question: 234234
