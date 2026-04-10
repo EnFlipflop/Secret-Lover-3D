@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed827a7ff1cd974e8dcc2783261cf7c, type: 3}
+  m_Name: Soundholder
+  m_EditorClassIdentifier: 
+  footsteps:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  interact:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  UIHover:
+    Guid:
+      Data1: 1660339882
+      Data2: 1136803603
+      Data3: 639851906
+      Data4: -1889251441
+    Path: event:/UI_Hover
+  UIClick:
+    Guid:
+      Data1: -805809996
+      Data2: 1092653593
+      Data3: -1306305606
+      Data4: -1860629545
+    Path: event:/UI_click
