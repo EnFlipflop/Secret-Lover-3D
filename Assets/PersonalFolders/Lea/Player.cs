@@ -9,17 +9,34 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, interactRange) && hit.collider.CompareTag("Person"))
+        if (!GameManager.Instance.interacting)
         {
-            currentPerson = hit.collider.GetComponent<Person>();
-            currentPerson.OnHover();
+            if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, interactRange) && hit.collider.CompareTag("Person"))
+            {
+                currentPerson = hit.collider.GetComponent<Person>();
+                currentPerson.OnHover();
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    currentPerson.OnInteract();
+                    GameManager.Instance.interacting = true;
+                }
+            }
+            else
+            {
+                if (currentPerson)
+                {
+                    currentPerson.OnHoverEnd();
+                    currentPerson = null;
+                }
+            }
         }
         else
         {
-            if (currentPerson)
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                currentPerson.OnHoverEnd();
-                currentPerson = null;
+                currentPerson.OnInteractEnd();
+                GameManager.Instance.interacting = false;
             }
         }
     }

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class Movement3D : MonoBehaviour
 {
     [Header("Movement settings")]
     [Tooltip("The player's movement speed")]
-    [SerializeField] private float moveSpeed = 1;
+    [SerializeField] private float moveSpeed = 3;
     
     private Rigidbody rb;
     private Vector3 direction;

@@ -1,29 +1,59 @@
+using TMPro;
 using UnityEngine;
 
 public class Person : MonoBehaviour
 {
-    [Tooltip("The outline shader material")]
+    /*[Tooltip("The outline shader material")]
     [SerializeField] private Material outlineMaterial;
     [SerializeField] private Color outlineColor;
     
     private MeshRenderer meshRenderer;
-    private Material defaultMaterial;
+    private Material defaultMaterial;*/
+
+    [SerializeField] private GameObject interactText;
+    [SerializeField] private GameObject conversationScreen;
 
     private void Start()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
+        /*meshRenderer = GetComponent<MeshRenderer>();
         defaultMaterial = meshRenderer.materials[1];
         
-        outlineMaterial.color = outlineColor;
+        outlineMaterial.color = outlineColor;*/
     }
 
     public void OnHover()
     {
-        meshRenderer.material = outlineMaterial;
+        //meshRenderer.material = outlineMaterial;
+        interactText.SetActive(true);
     }
 
     public void OnHoverEnd()
     {
-        meshRenderer.material = defaultMaterial;
+        //meshRenderer.material = defaultMaterial;
+        interactText.SetActive(false);
+    }
+
+    public void OnInteract()
+    {
+        GameManager.Instance.movement3D.enabled = false;
+        GameManager.Instance.camera3D.enabled = false;
+        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        
+        interactText.SetActive(false);
+        conversationScreen.SetActive(true);
+    }
+
+    public void OnInteractEnd()
+    {
+        GameManager.Instance.movement3D.enabled = true;
+        GameManager.Instance.camera3D.enabled = true;
+        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        
+        interactText.SetActive(true);
+        conversationScreen.SetActive(false);
     }
 }

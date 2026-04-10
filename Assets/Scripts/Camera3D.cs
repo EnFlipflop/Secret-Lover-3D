@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class Camera3D : MonoBehaviour
 {
     [Header("Camera settings")]
     [Tooltip("Camera sensitivity")]
