@@ -60,4 +60,12 @@ public class GameManager : MonoBehaviour
         letterInt = Random.Range(0, letters);
         Debug.Log(letterInt);
     }
+
+    private void CiggHint()
+    {
+        if (ciggHints > 0)
+        { 
+            ciggHints--;
+        }
+    }
 }
