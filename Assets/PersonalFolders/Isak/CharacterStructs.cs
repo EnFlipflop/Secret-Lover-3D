@@ -37,6 +37,7 @@ public struct CharacterSystem
     public EventReference hejDåFrasEvent;
 
     public EventReference paperClick;
+    public EventReference conversation;
 }
 
 public class CharacterStructs : MonoBehaviour

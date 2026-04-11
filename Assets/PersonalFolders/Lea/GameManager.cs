@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
@@ -16,9 +17,12 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     
     public TextMeshProUGUI letterText;
+    public int talkedTo;
 
     public int letterInt;
     public int ciggHints = 3;
+    public RawImage ciggVisual;
+    public Texture[] ciggSprites;
     public LetterScriptable[] letters;
     public Person[] guests;
     [Header("Character identifiers")]
@@ -63,7 +67,14 @@ public class GameManager : MonoBehaviour
             camera3D = player.GetComponentInChildren<Camera3D>();
         }
         PickLetter();
+        letterText.gameObject.SetActive(false);
         
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.H))
+            CiggHint();
     }
 
     public void StopInteracting()
@@ -79,14 +90,16 @@ public class GameManager : MonoBehaviour
 
     private void CiggHint()
     {
+        
         if (ciggHints > 0)
         { 
             ciggHints--;
             foreach (Person person in guests)
             {
-                person.Die(letters[letterInt].hintKills[ciggHints-1]);
+                person.Die(letters[letterInt].hintKills[ciggHints]);
             }
             
         }
+        ciggVisual.texture = ciggSprites[ciggHints];
     }
 }

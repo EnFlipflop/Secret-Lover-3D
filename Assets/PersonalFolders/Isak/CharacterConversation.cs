@@ -15,11 +15,13 @@ public class CharacterConversation : MonoBehaviour
     private int conversationIndex1, conversationIndex2, conversationIndex3;
     [SerializeField] private GameObject subtitlesAndNameplate;
     [SerializeField] private float questionCD = 2;
-    private bool onCD;
+    private bool onCD, hasInteracted;
+    [SerializeField] private Button guessButton;
 
     private void Start()
     {
-        StartCharacterInteraction();
+        StartCharacterInteraction(); //ta bort sen
+        guessButton.gameObject.SetActive(false);
     }
 
     public void StartCharacterInteraction()
@@ -35,6 +37,15 @@ public class CharacterConversation : MonoBehaviour
         namePlateText.text = characterLines.characterSystem.characterName;
         subtitlesAndNameplate.SetActive(false);
         onCD = false;
+        if (!hasInteracted)
+        {
+            GameManager.Instance.talkedTo++;
+            hasInteracted = true;
+        }
+        if (GameManager.Instance.talkedTo == 8)
+        {
+            guessButton.gameObject.SetActive(true);
+        }
     }
 
     public void QuestionLine1()
