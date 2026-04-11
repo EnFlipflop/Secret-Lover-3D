@@ -17,7 +17,6 @@ public class Movement3D : MonoBehaviour
     [SerializeField] private float stepCD = 0.5f, paramCD = 0.3f;
     private float stepTimer, paramTimer;
     public SoundScriptable sounds;
-    public LayerMask ground;
     public float rayDistance = 0.4f;
     
     private void Start()
@@ -89,7 +88,7 @@ public class Movement3D : MonoBehaviour
     {
         RaycastHit hit;
 
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, rayDistance, ground))
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, rayDistance))
         {
             if (hit.collider.CompareTag("Stone"))
             {

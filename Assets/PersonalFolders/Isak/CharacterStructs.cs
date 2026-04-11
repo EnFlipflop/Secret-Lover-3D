@@ -35,7 +35,8 @@ public struct CharacterSystem
     [Header("Hejdå-fras")]
     public String hejDåFras;
     public EventReference hejDåFrasEvent;
-    
+
+    public EventReference paperClick;
 }
 
 public class CharacterStructs : MonoBehaviour

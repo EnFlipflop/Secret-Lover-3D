@@ -10,11 +10,11 @@ public class CharacterConversation : MonoBehaviour
     public TextMeshProUGUI button1, button2, button3;
     [SerializeField] private TextMeshProUGUI subtitles, namePlateText;
     private int conversationIndex1, conversationIndex2, conversationIndex3;
+    [SerializeField] private GameObject subtitlesAndNameplate;
 
     private void Start()
     {
         StartCharacterInteraction();
-        
     }
 
     public void StartCharacterInteraction()
@@ -28,10 +28,13 @@ public class CharacterConversation : MonoBehaviour
         subtitles.text = characterLines.characterSystem.hejFras;
         RuntimeManager.PlayOneShot(characterLines.characterSystem.hejFrasEvent);
         namePlateText.text = characterLines.characterSystem.characterName;
+        subtitlesAndNameplate.SetActive(false);
     }
 
     public void QuestionLine1()
     {
+        ClickSound();
+        subtitlesAndNameplate.SetActive(true);
         conversationIndex1++;
         switch (conversationIndex1)
         {
@@ -49,13 +52,12 @@ public class CharacterConversation : MonoBehaviour
                QuestionLine1();
                break;
         }
-         
-        
-        
     }
     
     public void QuestionLine2()
     {
+        ClickSound();
+        subtitlesAndNameplate.SetActive(true);
         conversationIndex2++;
         switch (conversationIndex2)
         {
@@ -77,6 +79,8 @@ public class CharacterConversation : MonoBehaviour
 
     public void QuestionLine3()
     {
+        ClickSound();
+        subtitlesAndNameplate.SetActive(true);
         conversationIndex3++;
         switch (conversationIndex3)
         {
@@ -94,5 +98,10 @@ public class CharacterConversation : MonoBehaviour
                 QuestionLine3();
                 break;
         }
+    }
+
+    public void ClickSound()
+    {
+        RuntimeManager.PlayOneShot(characterLines.characterSystem.paperClick);
     }
 }

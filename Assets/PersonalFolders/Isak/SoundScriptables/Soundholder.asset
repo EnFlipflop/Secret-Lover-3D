@@ -14,18 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footsteps:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1690092135
+      Data2: 1190591417
+      Data3: 83028386
+      Data4: -321438962
+    Path: event:/Footsteps
+  stopFootstep:
+    Guid:
+      Data1: -1734111614
+      Data2: 1219274353
+      Data3: 1315116944
+      Data4: -1855708384
+    Path: event:/Stop footstep
+  startFootstep:
+    Guid:
+      Data1: 482968152
+      Data2: 1148951992
+      Data3: -223848790
+      Data4: 168585389
+    Path: event:/Start footstep
   interact:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1660339882
+      Data2: 1136803603
+      Data3: 639851906
+      Data4: -1889251441
+    Path: event:/UI_Hover
   UIHover:
     Guid:
       Data1: 1660339882
@@ -40,3 +54,10 @@ MonoBehaviour:
       Data3: -1306305606
       Data4: -1860629545
     Path: event:/UI_click
+  PaperClick:
+    Guid:
+      Data1: 1174658839
+      Data2: 1326792120
+      Data3: 878977703
+      Data4: 1845774844
+    Path: event:/PaperClick

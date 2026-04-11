@@ -6,7 +6,7 @@ public class SoundScriptable : ScriptableObject
     [Header("Player")] public EventReference footsteps, stopFootstep, startFootstep; 
     public EventReference interact;
 
-    [Header("UI")] public EventReference UIHover; 
-    public EventReference UIClick;
-    
+    [Header("UI")] public EventReference UIHover;
+    public EventReference UIClick, PaperClick;
+
 }

@@ -385,6 +385,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
+--- !u!1 &1172785227 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4943445031589426246, guid: e0c8078578325c64cb0fc2d2682bcee7, type: 3}
+  m_PrefabInstance: {fileID: 8175068455503749324}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1259120051
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +573,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1795570022 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1754050968359823160, guid: e0c8078578325c64cb0fc2d2682bcee7, type: 3}
+  m_PrefabInstance: {fileID: 8175068455503749324}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2061225699
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +753,8 @@ MonoBehaviour:
   button2: {fileID: 450760599849620483}
   button3: {fileID: 6345980314055477058}
   subtitles: {fileID: 3102492601218834746}
+  namePlateText: {fileID: 1795570022}
+  subtitlesAndNameplate: {fileID: 1172785227}
 --- !u!114 &3102492601218834746 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1861136754346938672, guid: e0c8078578325c64cb0fc2d2682bcee7, type: 3}
@@ -846,6 +864,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2837596210477173728}
+    - target: {fileID: 4292874463023779744, guid: e0c8078578325c64cb0fc2d2682bcee7, type: 3}
+      propertyPath: sounds
+      value: 
+      objectReference: {fileID: 11400000, guid: 1f95d0ca3889fc24883f1321ddac4e33, type: 2}
     - target: {fileID: 6270181972957212556, guid: e0c8078578325c64cb0fc2d2682bcee7, type: 3}
       propertyPath: m_Name
       value: Buttons and subtitle

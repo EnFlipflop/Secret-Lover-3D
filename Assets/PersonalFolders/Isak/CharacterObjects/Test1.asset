@@ -57,3 +57,10 @@ MonoBehaviour:
         Data3: -1306305606
         Data4: -1860629545
       Path: event:/UI_click
+    paperClick:
+      Guid:
+        Data1: 1174658839
+        Data2: 1326792120
+        Data3: 878977703
+        Data4: 1845774844
+      Path: event:/Paper_Click

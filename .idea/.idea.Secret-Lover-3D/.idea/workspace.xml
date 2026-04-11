@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a57e4c43-bdb1-47e4-9abc-e9f8742a92e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Buttons and subtitle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Buttons and subtitle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterConversation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterConversation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterStructs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterStructs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Isaks Scen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Isaks Scen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptables/Soundholder.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptables/Soundholder.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button 2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button 3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement3D.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/PersonalFolders/Isak/Billboarding.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1,
   &quot;fromUser&quot;: false
@@ -85,13 +98,14 @@
       <option name="presentableId" value="Default" />
       <updated>1775898547619</updated>
       <workItem from="1775898552137" duration="24000" />
-      <workItem from="1775898599729" duration="1202000" />
+      <workItem from="1775898599729" duration="3672000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
