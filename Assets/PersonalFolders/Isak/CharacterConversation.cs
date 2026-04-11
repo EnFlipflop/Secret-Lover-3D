@@ -8,12 +8,13 @@ public class CharacterConversation : MonoBehaviour
 {
     public CharacterScriptable characterLines;
     public TextMeshProUGUI button1, button2, button3;
-    [SerializeField] private TextMeshProUGUI subtitles;
+    [SerializeField] private TextMeshProUGUI subtitles, namePlateText;
     private int conversationIndex1, conversationIndex2, conversationIndex3;
 
     private void Start()
     {
         StartCharacterInteraction();
+        
     }
 
     public void StartCharacterInteraction()
@@ -26,6 +27,7 @@ public class CharacterConversation : MonoBehaviour
         button3.text = characterLines.characterSystem.thirdQuestion.question;
         subtitles.text = characterLines.characterSystem.hejFras;
         RuntimeManager.PlayOneShot(characterLines.characterSystem.hejFrasEvent);
+        namePlateText.text = characterLines.characterSystem.characterName;
     }
 
     public void QuestionLine1()
