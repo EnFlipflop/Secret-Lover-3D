@@ -1,6 +1,9 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using FMODUnity;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +14,8 @@ public class CharacterConversation : MonoBehaviour
     [SerializeField] private TextMeshProUGUI subtitles, namePlateText;
     private int conversationIndex1, conversationIndex2, conversationIndex3;
     [SerializeField] private GameObject subtitlesAndNameplate;
+    [SerializeField] private float questionCD = 2;
+    private bool onCD;
 
     private void Start()
     {
@@ -29,10 +34,13 @@ public class CharacterConversation : MonoBehaviour
         RuntimeManager.PlayOneShot(characterLines.characterSystem.hejFrasEvent);
         namePlateText.text = characterLines.characterSystem.characterName;
         subtitlesAndNameplate.SetActive(false);
+        onCD = false;
     }
 
     public void QuestionLine1()
     {
+        if (onCD)
+            return;
         ClickSound();
         subtitlesAndNameplate.SetActive(true);
         conversationIndex1++;
@@ -52,6 +60,8 @@ public class CharacterConversation : MonoBehaviour
                QuestionLine1();
                break;
         }
+
+        StartCooldown();
     }
     
     public void QuestionLine2()
@@ -75,6 +85,7 @@ public class CharacterConversation : MonoBehaviour
                 QuestionLine2();
                 break;
         }
+        StartCooldown();
     }
 
     public void QuestionLine3()
@@ -98,10 +109,29 @@ public class CharacterConversation : MonoBehaviour
                 QuestionLine3();
                 break;
         }
+        StartCooldown();
     }
 
     public void ClickSound()
     {
         RuntimeManager.PlayOneShot(characterLines.characterSystem.paperClick);
+    }
+
+    private void StartCooldown()
+    {
+        onCD = true;
+        StartCoroutine(nameof(cooldown));
+    }
+
+    private IEnumerator cooldown()
+    {
+        button1.GetComponentInParent<Button>().interactable = false;
+        button2.GetComponentInParent<Button>().interactable = false;
+        button3.GetComponentInParent<Button>().interactable = false;
+        yield return new WaitForSeconds(questionCD);
+        button1.GetComponentInParent<Button>().interactable = true;
+        button2.GetComponentInParent<Button>().interactable = true;
+        button3.GetComponentInParent<Button>().interactable = true;
+        onCD = false;
     }
 }

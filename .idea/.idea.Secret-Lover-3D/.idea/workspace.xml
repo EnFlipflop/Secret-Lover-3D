@@ -5,17 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Buttons and subtitle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Buttons and subtitle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterConversation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterConversation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterStructs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterStructs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Isaks Scen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Isaks Scen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptables/Soundholder.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptables/Soundholder.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button 3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Buttons/Menu Button.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775898547619</updated>
       <workItem from="1775898552137" duration="24000" />
-      <workItem from="1775898599729" duration="3672000" />
+      <workItem from="1775898599729" duration="7548000" />
     </task>
     <servers />
   </component>

@@ -100,4 +100,9 @@ public class Movement3D : MonoBehaviour
             }
         }
     }
+
+    public void StopMoving()
+    {
+        rb.linearVelocity = Vector3.zero;
+    }
 }

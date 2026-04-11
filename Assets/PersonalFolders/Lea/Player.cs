@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     currentPerson.OnInteract();
+                    GameManager.Instance.movement3D.StopMoving();
                     GameManager.Instance.interacting = true;
                 }
             }

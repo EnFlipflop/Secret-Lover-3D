@@ -1011,7 +1011,7 @@ MonoBehaviour:
   subtitles: {fileID: 1861136754346938672}
   namePlateText: {fileID: 1754050968359823160}
   subtitlesAndNameplate: {fileID: 4943445031589426246}
-  sounds: {fileID: 11400000, guid: 1f95d0ca3889fc24883f1321ddac4e33, type: 2}
+  questionCD: 2
 --- !u!1 &7072460347816194925
 GameObject:
   m_ObjectHideFlags: 0
