@@ -13,61 +13,77 @@ MonoBehaviour:
   m_Name: Anne Phayquname
   m_EditorClassIdentifier: 
   characterSystem:
-    characterName: 
-    hejFras: 
+    characterName: Anne Phayquname
+    hejFras: Oh, are you talking to me?
     hejFrasEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 770839133
+        Data2: 1248789310
+        Data3: 1274628287
+        Data4: -1630003170
+      Path: event:/Ann/Ann Hej
     firstQuestion:
-      question: 
-      answer: 
+      question: "Shouldn\u2019t a cookie like yourself be out dancing? "
+      answer: 'Oh I wish. I can really cook with helium on the dancefloor! In the
+        Bronx they call me the Jive Queen! If I could I would be out all night! '
     q1FollowUpQuestion1:
-      question: 
-      answer: 
+      question: "Holy mackerel! What\u2019s the best music to dance to? "
+      answer: "Well when they start shreddin\u2019 on that licorice stick, ooooh
+        baby that\u2019s that good stuff! That's when I really cut a rug! I wouldn\u2019t
+        mind taking a piece of cake like you to a dance sometime\u2026 "
     q1FollowUpQuestion2:
-      question: 
-      answer: 
+      question: "Jeepers! You're pretty forward aren\u2019t you! "
+      answer: "Well, I know what I like, and I\u2019m not afraid of a little light
+        hearted flirting! Maybe I should be a bit more careful with who I lead on,
+        there aren\u2019t many out there that can handle my\u2026 \u201Cspecial\u201D
+        lifestyle\u2026 "
     secondQuestion:
-      question: 
-      answer: 
+      question: "I\u2019m guessing they only serve the best booze in town here! "
+      answer: "HA! Gods no! I saw a bottle in the back that cost less than the glass
+        it\u2019s served in! I would never be seen drinking that cheesy crap. "
     q2FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'You seem to have an expensive taste! '
+      answer: 'Excuse you, I have GREAT taste! Not my fault you have to spend some
+        greenbacks for the good stuff. '
     q2FollowUpQuestion2:
-      question: 
-      answer: 
+      question: "Maybe you could show me the \u201Cgood stuff\u201D sometime? "
+      answer: "Asking out the staff at a ball? My my! As long as it\u2019s not in
+        the morning, I can never seem to wake up on time\u2026 "
     thirdQuestion:
-      question: 
-      answer: 
+      question: 'Have you been dusting the same shelf for 30 minutes? '
+      answer: "Eeeeeh yes! Allford always wants it to be squeaky clean! Have you
+        been watching me? Hope that cop over there isn\u2019t as vigilant as you\u2026 "
     q3FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Do you have something to hide? I can keep a secret. '
+      answer: "Ok, but promise to not tell anyone, you feel like someone I can trust.
+        I\u2019m not actually a maid, I\u2019m a burglar who has stolen a lot of
+        cash! I almost got out with the lettuce, but then I saw my ex in the corner!
+        That dandy would definitely recognise me, so I stole this maid outfit and
+        here I am! "
     q3FollowUpQuestion2:
-      question: 
-      answer: 
-    "hejD\xE5Fras": 
+      question: "What a story! How\u2019d you get in? "
+      answer: "Through a window ofcourse! Thankfully I\u2019m not scared of heights!
+        But I\u2019m not off the hook yet. Say, you wouldn\u2019t mind switching
+        duds? I think you\u2019d look swell in a maid outfit! "
+    "hejD\xE5Fras": "Back to my\u2026 \u201Cduties\u201D."
     "hejD\xE5FrasEvent":
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 622775001
+        Data2: 1240448878
+        Data3: 135230343
+        Data4: -72114661
+      Path: "event:/Ann/Ann Hejd\xE5"
     paperClick:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1174658839
+        Data2: 1326792120
+        Data3: 878977703
+        Data4: 1845774844
+      Path: event:/Paper_Click
     conversation:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1592440661
+        Data2: 1085351260
+        Data3: 1770804926
+        Data4: -652999358
+      Path: event:/Ann/Ann Prat

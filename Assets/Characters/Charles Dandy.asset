@@ -13,61 +13,72 @@ MonoBehaviour:
   m_Name: Charles Dandy
   m_EditorClassIdentifier: 
   characterSystem:
-    characterName: 
-    hejFras: 
+    characterName: Charles Dandy
+    hejFras: Bonsoir!
     hejFrasEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1027905766
+        Data2: 1087207586
+        Data3: -1215575654
+        Data4: 962334086
+      Path: event:/Charles/Charles Hej
     firstQuestion:
-      question: 
-      answer: 
+      question: "Aren\u2019t you the coolest dish in the building! "
+      answer: "Merci boque, you don\u2019t look half bad yourself mon petit chou!
+        I feel a bit uncomfortable though.. "
     q1FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Is that so? '
+      answer: "Oui, see i\u2019ve got sand in both my shoes! But you can\u2019t be
+        the \u201Ccoolest dish in the building\u201D while pouring sand all over
+        the place! "
     q1FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'Why do you have sand in your shoes? '
+      answer: 'Well where does anyone get sand in New York andouille! The beach of
+        course! J''aime walking on the beach late at night. Can you blame me for
+        taking a lonely stroll before a lively party like this one? '
     secondQuestion:
-      question: 
-      answer: 
+      question: "You look confused. What\u2019s up? "
+      answer: "Ah bon? Non, I just though I smelled the familiar odeur of a passed
+        lover\u2026 Brought back memories\u2026 "
     q2FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Good or bad memories? '
+      answer: "Just\u2026 memories\u2026 We had great times, but we had very different
+        lives\u2026 "
     q2FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'How so? '
+      answer: "They were a bit too\u2026 bold? I think I like my partner to be a
+        bit less brave and more\u2026 smart, if you know what I mean."
     thirdQuestion:
-      question: 
-      answer: 
+      question: 'I saw you peeping out the window looking worried. '
+      answer: "Oh you saw that? Hoh hoh! I\u2019m not scared of heights if that\u2019s
+        what you think! No\u2026 I\u2019m just thinking of my beautiful cat. She
+        must be so lonely all alone in my apartment. Oh mon petit minou\u2026 "
     q3FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Wouldn''t you rather be at home? '
+      answer: 'And miss all the drama! Pour rien au monde! Have you heard the rumor,
+        whoo! The best gossip is always around these rich geezers!  '
     q3FollowUpQuestion2:
-      question: 
-      answer: 
-    "hejD\xE5Fras": 
+      question: 'You really are on the beam! Care for a dance? '
+      answer: 'My my, an enticing offer indeed! '
+    "hejD\xE5Fras": 'Au revoir '
     "hejD\xE5FrasEvent":
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 402961157
+        Data2: 1100466058
+        Data3: 1140431518
+        Data4: -2030891081
+      Path: "event:/Charles/Charles Hejd\xE5"
     paperClick:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1174658839
+        Data2: 1326792120
+        Data3: 878977703
+        Data4: 1845774844
+      Path: event:/Paper_Click
     conversation:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1984468290
+        Data2: 1188683005
+        Data3: 2081154996
+        Data4: 1176986704
+      Path: event:/Charles/Charles Prat

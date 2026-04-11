@@ -13,61 +13,73 @@ MonoBehaviour:
   m_Name: Lawrence Douglaws
   m_EditorClassIdentifier: 
   characterSystem:
-    characterName: 
-    hejFras: 
+    characterName: Lawrence Douglaws
+    hejFras: 'Hands up HAHA! '
     hejFrasEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 929637637
+        Data2: 1212304024
+        Data3: -1395779149
+        Data4: 1533497231
+      Path: event:/Lawrence/Lawrence Hej
     firstQuestion:
-      question: 
-      answer: 
+      question: "Evening constable, hope I\u2019m not in trouble. "
+      answer: "Even if you were, there are way worse crooks around here. You\u2019ve
+        heard the rumors right? Talk on the town is that this ball is one big cover
+        up! I just know that scoundrel Mr. Allford has something to hide\u2026 "
     q1FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'That sounds scary! '
+      answer: "I ain\u2019t no chicken! In this world you have to be brave to get
+        what you want! So if you ain\u2019t got any moxie you can bugger off! "
     q1FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'I got to have some moxie talking to you, old timer. '
+      answer: 'HA! You got that right! I think I like the jib of your vibe, sport! '
     secondQuestion:
-      question: 
-      answer: 
+      question: 'What does the constable like at a party? '
+      answer: "Good dancin\u2019 music! Can\u2019t stand when they play that classical
+        nonsense. Bach? More like Barf, HA! Can\u2019t say I\u2019m a grandstand
+        at the dancefloor though. "
     q2FollowUpQuestion1:
-      question: 
-      answer: 
+      question: "I\u2019m sure you\u2019re not that bad! "
+      answer: "Oh you weren\u2019t at the 1932 annual police gala. It still smells
+        like pineapple under the floorboards HAHAHA! "
     q2FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'What happened at the 1932 police gala? '
+      answer: "My lawyer won\u2019 t like it if I speak any more on the matter\u2026
+        the jist of it is, I ain\u2019t a good dancer! "
     thirdQuestion:
-      question: 
-      answer: 
+      question: 'Does it smell sweet in here or are you just sniffly? '
+      answer: "Ha! You\u2019re on the nose. I feel like I have a damned waterfall
+        on my face! "
     q3FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Do you need a tissue? '
+      answer: "I think \u2013 ACHOO! \u2013 there\u2019s a dog in here! I can't even
+        stand the K9s at the station!  "
     q3FollowUpQuestion2:
-      question: 
-      answer: 
-    "hejD\xE5Fras": 
+      question: 'Bless you. '
+      answer: "Thank you! Not only do I have to suffer allergy problems at my work,
+        my cats hate it when I come home smelling like dog, they won't even let me
+        come in. I wish there were no dogs HA! I\u2019m just pulling your leg\u2026
+        kind of\u2026 "
+    "hejD\xE5Fras": "Don\u2019t cause any trouble out there. "
     "hejD\xE5FrasEvent":
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1320370332
+        Data2: 1214053686
+        Data3: 262856368
+        Data4: 670400939
+      Path: "event:/Lawrence/Lawrence Hejd\xE5"
     paperClick:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1174658839
+        Data2: 1326792120
+        Data3: 878977703
+        Data4: 1845774844
+      Path: event:/Paper_Click
     conversation:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1861448004
+        Data2: 1296199643
+        Data3: -1866058110
+        Data4: -1813746549
+      Path: event:/Lawrence/Lawrence Prat

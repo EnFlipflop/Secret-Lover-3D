@@ -13,61 +13,73 @@ MonoBehaviour:
   m_Name: Robert Left
   m_EditorClassIdentifier: 
   characterSystem:
-    characterName: 
-    hejFras: 
+    characterName: Robert Left
+    hejFras: 'Hello there, champ! '
     hejFrasEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -2104060913
+        Data2: 1209689446
+        Data3: 54907323
+        Data4: -1217176902
+      Path: event:/Robert/Robert Hej
     firstQuestion:
-      question: 
-      answer: 
+      question: 'Interesting duds you have there! '
+      answer: "I\u2019m dressed for the skies! I\u2019m New York's finest pilot!
+        Hot Airballoon Pilot that is. "
     q1FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Flying in a balloon? That sounds dangerous! '
+      answer: "Oh it certainly is. There\u2019s nothing I fear more than the ground,
+        quickly coming towards you! But my love for flight trumps any fear! "
     q1FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'Amazing! Where do you park a balloon in New York? '
+      answer: "Well I parked it on the roof of this building. Hope Mr. Allford doesn\u2019t
+        mind\u2026 I\u2019ve heard some scary rumors about that fellow\u2026"
     secondQuestion:
-      question: 
-      answer: 
+      question: 'You look a bit uncomfortable there. '
+      answer: "I seem to have gotten sand in my stompers! I would pour it out right
+        here and now, but it doesn\u2019t seem proper. "
     q2FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Where do you find sand on a hot air balloon? '
+      answer: "In the ballast of course, the big bags on the side! People here seem
+        to have very limited knowledge about aviation technology\u2026 "
     q2FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'You sound disappointed? '
+      answer: "Well, you see, the main reason I went to this ball was to coerce some\u2026
+        glitterati\u2026 to invest in my inventions! Though it seems like many are
+        preoccupied with the rumors about Mr. Allford. It seems like my plan is going
+        belly up\u2026"
     thirdQuestion:
-      question: 
-      answer: 
+      question: "I didn\u2019t see you at the toast? "
+      answer: "Oh, well, I arrived a bit late\u2026 You see, I\u2019m a bit of a
+        chronic oversleeper. Alarm clocks these days are too quiet! I need something
+        to really rattle me awake in the morning! "
     q3FollowUpQuestion1:
-      question: 
-      answer: 
+      question: "Why don\u2019t you invent something? "
+      answer: "Eureka! That\u2019s it! I\u2019ll make the best alarm clock this side
+        of the Mississippi! Thank you my friend, I\u2019ll give you some of the profit
+        from our brainchild when I\u2019m rich. Hot diggity dog! "
     q3FollowUpQuestion2:
-      question: 
-      answer: 
-    "hejD\xE5Fras": 
+      question: 'Is there something more that you want to give me? '
+      answer: "Eeee\u2026 chucks\u2026 I c-could give you an alarm clock for free? "
+    "hejD\xE5Fras": Soar long!
     "hejD\xE5FrasEvent":
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -737044316
+        Data2: 1303489507
+        Data3: -1250031188
+        Data4: 750744213
+      Path: "event:/Robert/Robert Hejd\xE5"
     paperClick:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1174658839
+        Data2: 1326792120
+        Data3: 878977703
+        Data4: 1845774844
+      Path: event:/Paper_Click
     conversation:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1759217331
+        Data2: 1219462778
+        Data3: 1186388120
+        Data4: 1905508903
+      Path: event:/Robert/Robert Prat

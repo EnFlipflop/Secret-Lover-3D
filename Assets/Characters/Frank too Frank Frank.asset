@@ -13,61 +13,76 @@ MonoBehaviour:
   m_Name: Frank too Frank Frank
   m_EditorClassIdentifier: 
   characterSystem:
-    characterName: 
-    hejFras: 
+    characterName: Frank "too Frank" Frank
+    hejFras: 'Get a load of this guy! '
     hejFrasEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1179198396
+        Data2: 1075289099
+        Data3: -1747352392
+        Data4: 1507341150
+      Path: event:/Frank/Frank Hej
     firstQuestion:
-      question: 
-      answer: 
+      question: 'You seem like someone who you don''t want to cross! '
+      answer: "That would be a fair assumption hi I\u2019m Frank but you can call
+        me Frankie how\u2019s it goin?  "
     q1FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'How did a guy like you get in here? '
+      answer: "Weeell you could say I got a \u201Cspecial\u201D invitation. And by
+        special I mean I didn\u2019t get one. And by didn\u2019t get one I mean I
+        broke in. And by broke in I mean\u2026 Well yeah that\u2019s exactly what
+        I mean. "
     q1FollowUpQuestion2:
-      question: 
-      answer: 
+      question: "You\u2019re pretty Frank about your criminal activity. "
+      answer: "Well they don\u2019t call me \u201Ctoo Frank\u201D Frank for nothin\u2019.
+        Don\u2019t go telling now, that fat head constable over there has been giving
+        me the side eye the whole evenin\u2019\u2026 "
     secondQuestion:
-      question: 
-      answer: 
+      question: ' Is that a paw print on your pants? '
+      answer: "Oh, hehe yeah. My little pup can be quite a mess! I love him thou,
+        I always take him on walks first thing in the mornin\u2019! "
     q2FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'You''re quite the softy! '
+      answer: "Only with mah family and the broads! But when I\u2019m workin\u2019,
+        I\u2019m the toughest guy in town! Speaking of which, you wouldn't know anything
+        about a\u2026 \u201Cmissing\u201D person? Someone under our protection hasn\u2019t
+        been seen in a while and I have a\u2026 suspicion\u2026 "
     q2FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'Missing person? Sounds like something for the police. '
+      answer: "Now don\u2019t be hasty! Something has to be done\u2026 outside the
+        law.. you get me? "
     thirdQuestion:
-      question: 
-      answer: 
+      question: 'What did you think of the hors d''oeuvres? '
+      answer: "Oar deers the what now? I ain\u2019t no frog, I\u2019m a full blooded
+        italian\u2019! Land of pasta, classical music and the trains are always on
+        time! "
     q3FollowUpQuestion1:
-      question: 
-      answer: 
+      question: "I didn\u2019t pin you as a \u201Cclassical\u201D kinda guy. "
+      answer: "Of course! I love that Vivaldi guy! Though I love a good swing a wig!
+        I\u2019m quite the ducky shincracker on the dancefloor! "
     q3FollowUpQuestion2:
-      question: 
-      answer: 
-    "hejD\xE5Fras": 
+      question: 'Someone here you would fancy a dance with? '
+      answer: "You flirtin\u2019 with me? Hehe, nah I\u2019m just pulling your leg,
+        but I could go for a dance! "
+    "hejD\xE5Fras": "Don\u2019t go telling nothin\u2019 now! "
     "hejD\xE5FrasEvent":
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -249991521
+        Data2: 1331533920
+        Data3: 998294664
+        Data4: 175839874
+      Path: "event:/Frank/Frank Hejd\xE5"
     paperClick:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1174658839
+        Data2: 1326792120
+        Data3: 878977703
+        Data4: 1845774844
+      Path: event:/Paper_Click
     conversation:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1516252253
+        Data2: 1075154287
+        Data3: 1204550820
+        Data4: 2032621710
+      Path: event:/Frank/Frank Prat

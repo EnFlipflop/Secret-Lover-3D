@@ -13,61 +13,74 @@ MonoBehaviour:
   m_Name: Shirley Wright
   m_EditorClassIdentifier: 
   characterSystem:
-    characterName: 
-    hejFras: 
+    characterName: Shirley Wright
+    hejFras: Up for an interview?
     hejFrasEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1969025583
+        Data2: 1189526410
+        Data3: -259140981
+        Data4: -697027641
+      Path: event:/Shirley/Shirley Hej
     firstQuestion:
-      question: 
-      answer: 
+      question: 'What is a reporter doing here? '
+      answer: "There\u2019s rumors going about. I thought everyone knew. Have you
+        been living under a rock? I\u2019ve been up since early morning preparing,
+        now I'm here to snoop and find out what's really going on around here.  "
     q1FollowUpQuestion1:
-      question: 
-      answer: 
+      question: "So tell me, what\u2019s the latest scoop? "
+      answer: "I tried to talk to Mr allford but all he gave me was gobbledygook.
+        More so I\u2019ve also seen some strange fellows, the police constable is
+        here somewhere also snooping it looks like, some goon from the mob is here
+        and is looking real angry, all while that maid over there has had her peepers
+        on the exit the whole time!  "
     q1FollowUpQuestion2:
-      question: 
-      answer: 
+      question: ' How does it all fit together? '
+      answer: 'My theory was that Mr Allford and the police were in cahoots but why
+        is the constable looking so angry? '
     secondQuestion:
-      question: 
-      answer: 
+      question: "Too many geezers here don\u2019t you think? "
+      answer: 'Yes and everyone thinks I am a rookie even though I just unveiled
+        the biggest story this year AND the biggest last year. My pockets are still
+        full of sand from my last story. Are you here to steal this story from me? '
     q2FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'No, that''s above my paygrade. '
+      answer: 'If you''re not here about rumors, what are you doing here and who
+        invited you? '
     q2FollowUpQuestion2:
-      question: 
-      answer: 
+      question: " I\u2019m here on flirtier business care for a dance? "
+      answer: 'I would, but you know, duties first. '
     thirdQuestion:
-      question: 
-      answer: 
+      question: 'Doing many interviews? '
+      answer: 'I was but unfortunately I made a goof and spilled this disgusting
+        champagne on my notepad. Not many had any gossip about Allford anyways, mostly
+        yucks yapping, I feel like a schnook. '
     q3FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Did you get nothing of worth? '
+      answer: 'Some guy said he parked a god damned hot air balloon on the roof!
+        Is that even legal? '
     q3FollowUpQuestion2:
-      question: 
-      answer: 
-    "hejD\xE5Fras": 
+      question: "You don\u2019t like balloons?  "
+      answer: No, I hate balloons. My cats always pop them in the middle of the night!
+    "hejD\xE5Fras": 'See you in the papers! '
     "hejD\xE5FrasEvent":
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -880608903
+        Data2: 1099131679
+        Data3: -1314120262
+        Data4: 1319995500
+      Path: "event:/Shirley/Shirley Hejd\xE5"
     paperClick:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1174658839
+        Data2: 1326792120
+        Data3: 878977703
+        Data4: 1845774844
+      Path: event:/Paper_Click
     conversation:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -32045136
+        Data2: 1118058899
+        Data3: 488011196
+        Data4: 423002487
+      Path: event:/Shirley/Sherley Prat

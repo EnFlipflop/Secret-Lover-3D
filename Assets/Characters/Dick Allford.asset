@@ -35,42 +35,49 @@ MonoBehaviour:
       answer: "Well\u2026 I\u2026 uh\u2026 I\u2019m pretty shy on dates\u2026 but
         I\u2019m sure Barbra would like the company! "
     secondQuestion:
-      question: 
-      answer: 
+      question: Why is both a reporter and the constable here?
+      answer: "Well.. there\u2019s been some rumors that this ball is a cover up,
+        but that's just some bum rap! This party\u2019s purpose is only to let those
+        jitterbugs out there knock it out! "
     q2FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Then, may I have this next dance? '
+      answer: "No no\u2026 I\u2019m a terrible dancer, always been. Thank you though,
+        you gotta have some moxie to ask the host for a dance! "
     q2FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'Is bravery something you admire? '
+      answer: 'Of course! This world only rewards the courageous, like myself. I
+        wouldn''t be this killer diller without it. '
     thirdQuestion:
-      question: 
-      answer: 
+      question: 'Holy Mackrel Mr Allford, what brand is this champagne? '
+      answer: 'Well natch! Franc bluve always makes my parties swell! '
     q3FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Gee, that sounds like it drains the clams! '
+      answer: "Could I tell you a secret? It\u2019s not that expensive, but it gives
+        you a good buzz! Don\u2019t tell the other guests though, that dandy over
+        there seems to have some expensive taste when it comes to booze. "
     q3FollowUpQuestion2:
-      question: 
-      answer: 
-    "hejD\xE5Fras": 
+      question: "That\u2019s some shady tactics! "
+      answer: "I have nothing to hide! I just don\u2019t want to reveal all of my
+        cards. "
+    "hejD\xE5Fras": "Don\u2019t flip your wig out there!"
     "hejD\xE5FrasEvent":
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1493874709
+        Data2: 1303097324
+        Data3: 1847207598
+        Data4: -1709090009
+      Path: "event:/Dick/Dick Hejd\xE5"
     paperClick:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1174658839
+        Data2: 1326792120
+        Data3: 878977703
+        Data4: 1845774844
+      Path: event:/Paper_Click
     conversation:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -778729990
+        Data2: 1262338897
+        Data3: -1481706078
+        Data4: 1436644473
+      Path: event:/Dick/Dick Prat

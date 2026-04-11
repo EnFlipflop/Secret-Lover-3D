@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95d182538fe153d44aa3d5fe79f21bb4, type: 3}
-  m_Name: Slayn
+  m_Name: Rose Monroe
   m_EditorClassIdentifier: 
   characterSystem:
-    characterName: Slayn
-    hejFras: . . .
+    characterName: 
+    hejFras: 
     hejFrasEvent:
       Guid:
         Data1: 0
@@ -23,33 +23,33 @@ MonoBehaviour:
         Data4: 0
       Path: 
     firstQuestion:
-      question: How's it buzzin, cousin?
-      answer: . . .
+      question: 
+      answer: 
     q1FollowUpQuestion1:
-      question: Not so good?
-      answer: . . .
+      question: 
+      answer: 
     q1FollowUpQuestion2:
-      question: Have you tried drinking water?
-      answer: . . .
+      question: 
+      answer: 
     secondQuestion:
-      question: Did you come here alone?
-      answer: . . .
+      question: 
+      answer: 
     q2FollowUpQuestion1:
-      question: So, how do you know Allford?
-      answer: . . .
+      question: 
+      answer: 
     q2FollowUpQuestion2:
-      question: May I take you out on the dance floor?
-      answer: . . .
+      question: 
+      answer: 
     thirdQuestion:
-      question: Tired are we?
-      answer: . . .
+      question: 
+      answer: 
     q3FollowUpQuestion1:
-      question: Or are we sauced?
-      answer: . . .
+      question: 
+      answer: 
     q3FollowUpQuestion2:
-      question: I think you and I are soulmates!
-      answer: . . .
-    "hejD\xE5Fras": . . .
+      question: 
+      answer: 
+    "hejD\xE5Fras": 
     "hejD\xE5FrasEvent":
       Guid:
         Data1: 0
@@ -59,11 +59,11 @@ MonoBehaviour:
       Path: 
     paperClick:
       Guid:
-        Data1: 1174658839
-        Data2: 1326792120
-        Data3: 878977703
-        Data4: 1845774844
-      Path: event:/Paper_Click
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     conversation:
       Guid:
         Data1: 0
