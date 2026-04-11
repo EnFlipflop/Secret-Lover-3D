@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Security.Cryptography;
 using TMPro;
 using Unity.Mathematics;
@@ -15,9 +16,9 @@ public class Person : MonoBehaviour
     [SerializeField] private CharacterScriptable characterLines;
     [SerializeField] private GameObject interactText;
     [SerializeField] private GameObject conversationScreen;
-
+    private CharacterConversation CC; 
     public int UniqueIdentifier;
-    [SerializeField] private GameObject blodpöl;
+    //[SerializeField] private GameObject blodpöl;
     
     private void Start()
     {
@@ -49,18 +50,25 @@ public class Person : MonoBehaviour
         
         interactText.SetActive(false);
         conversationScreen.SetActive(true);
+        CC = conversationScreen.GetComponent<CharacterConversation>();
+        CC.StartCharacterInteraction();
     }
 
+    private Coroutine Stop;
     public void OnInteractEnd()
     {
-        GameManager.Instance.movement3D.enabled = true;
+        if (Stop == null)
+        {
+            Stop = StartCoroutine(stopinteract());
+        }
+        /*GameManager.Instance.movement3D.enabled = true;
         GameManager.Instance.camera3D.enabled = true;
         
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         
         interactText.SetActive(true);
-        conversationScreen.SetActive(false);
+        conversationScreen.SetActive(false);*/
     }
 
     public void Die(int identifier)
@@ -72,6 +80,21 @@ public class Person : MonoBehaviour
                 transform.position, Quaternion.Euler(90, Random.Range(0, 360), 0));
             gameObject.SetActive(false);
         }
+    }
+
+    private IEnumerator stopinteract()
+    {
+        CC.End();
+        yield return new WaitForSeconds(2f);
+        GameManager.Instance.movement3D.enabled = true;
+        GameManager.Instance.camera3D.enabled = true;
+        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        
+        interactText.SetActive(true);
+        conversationScreen.SetActive(false);
+        Stop = null;
     }
     
 }

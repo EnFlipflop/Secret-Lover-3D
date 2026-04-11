@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &907385572253923909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5221056736252067464}
+  - component: {fileID: 5017655426170569125}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5221056736252067464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907385572253923909}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.743225, y: 16.08636, z: -60.448338}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5017655426170569125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907385572253923909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3dc3cf1888f1d443a70d484f99b32a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  letterText: {fileID: 0}
+  talkedTo: 0
+  letterInt: 0
+  ciggHints: 3
+  ciggVisual: {fileID: 0}
+  ciggSprites:
+  - {fileID: 2800000, guid: 3b814cb01ce759349b7b5c4c391ca03f, type: 3}
+  - {fileID: 2800000, guid: 52d46757d544b1d429e0f0372f326cf0, type: 3}
+  - {fileID: 2800000, guid: 6654967ec8137794a9a563526bdff4ef, type: 3}
+  letters:
+  - {fileID: 11400000, guid: 00f207934f0b4a941ad948960884e652, type: 2}
+  guests:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bloodsplatters:
+  - {fileID: 3959289653322433735, guid: 6d802b0a185e48b469453817c73a24b0, type: 3}
+  - {fileID: 3959289653322433735, guid: f3b2271d6eab3db4d99cdf6126b0f075, type: 3}
+  - {fileID: 3959289653322433735, guid: 657aa476221ee434a94e7dbed0304389, type: 3}
+  result: {fileID: 11400000, guid: 5284fcca6602d144db283eae6fb4cfb6, type: 2}
+  endOfInspector: 

@@ -18,14 +18,9 @@ public class CharacterConversation : MonoBehaviour
     private bool onCD, hasInteracted;
     [SerializeField] private Button guessButton;
 
-    private void Start()
-    {
-        StartCharacterInteraction(); //ta bort sen
-        guessButton.gameObject.SetActive(false);
-    }
-
     public void StartCharacterInteraction()
     {
+        Debug.Log("StartCharacterInteraction");
         conversationIndex1 = 0;
         conversationIndex2 = 0;
         conversationIndex3 = 0;
@@ -35,13 +30,15 @@ public class CharacterConversation : MonoBehaviour
         subtitles.text = characterLines.characterSystem.hejFras;
         RuntimeManager.PlayOneShot(characterLines.characterSystem.hejFrasEvent);
         namePlateText.text = characterLines.characterSystem.characterName;
-        subtitlesAndNameplate.SetActive(false);
+        subtitles.text = characterLines.characterSystem.hejFras;
+        //subtitlesAndNameplate.SetActive(false);
         onCD = false;
         if (!hasInteracted)
         {
             GameManager.Instance.talkedTo++;
             hasInteracted = true;
         }
+        guessButton.gameObject.SetActive(false);
         if (GameManager.Instance.talkedTo == 8)
         {
             guessButton.gameObject.SetActive(true);
@@ -53,7 +50,7 @@ public class CharacterConversation : MonoBehaviour
         if (onCD)
             return;
         ClickSound();
-        subtitlesAndNameplate.SetActive(true);
+        //subtitlesAndNameplate.SetActive(true);
         conversationIndex1++;
         switch (conversationIndex1)
         {
@@ -150,5 +147,11 @@ public class CharacterConversation : MonoBehaviour
     {
         Person person = GetComponent<Person>();
         GameManager.Instance.Guess(person.UniqueIdentifier);
+    }
+
+    public void End()
+    {
+        subtitles.text = characterLines.characterSystem.hejDåFras;
+        RuntimeManager.PlayOneShot(characterLines.characterSystem.hejDåFrasEvent);
     }
 }
