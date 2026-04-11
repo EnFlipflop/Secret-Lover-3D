@@ -24,44 +24,48 @@ MonoBehaviour:
       Path: event:/Shirley/Shirley Hej
     firstQuestion:
       question: 'What is a reporter doing here? '
-      answer: "There\u2019s rumors going about. I thought everyone knew. Have you
+      answer: "There\u2019s rumors going around! I thought everyone knew. Have you
         been living under a rock? I\u2019ve been up since early morning preparing,
-        now I'm here to snoop and find out what's really going on around here.  "
+        now I'm here to snoop and find out what's really going on around here! "
     q1FollowUpQuestion1:
       question: "So tell me, what\u2019s the latest scoop? "
-      answer: "I tried to talk to Mr allford but all he gave me was gobbledygook.
-        More so I\u2019ve also seen some strange fellows, the police constable is
-        here somewhere also snooping it looks like, some goon from the mob is here
-        and is looking real angry, all while that maid over there has had her peepers
-        on the exit the whole time!  "
+      answer: "I tried to talk to Mr Allford, but all he gave me was gobbledygook!
+        More so, I\u2019ve also seen some strange fellows out and about. The police
+        constable is here somewhere, also snooping around; some goon from the mob
+        is here and is looking real angry; all while that maid over there has had
+        her peepers on the exit the whole time!  "
     q1FollowUpQuestion2:
-      question: ' How does it all fit together? '
-      answer: 'My theory was that Mr Allford and the police were in cahoots but why
-        is the constable looking so angry? '
+      question: 'How does it all fit together? '
+      answer: "My theory was that Mr Allford and the police were in cahoots, but
+        why is the constable looking so angry? There\u2019s some real first page
+        material here, I know it! "
     secondQuestion:
       question: "Too many geezers here don\u2019t you think? "
-      answer: 'Yes and everyone thinks I am a rookie even though I just unveiled
+      answer: 'Yes, and everyone thinks I am a rookie, even though I just unveiled
         the biggest story this year AND the biggest last year. My pockets are still
-        full of sand from my last story. Are you here to steal this story from me? '
+        full of sand from my last story. '
     q2FollowUpQuestion1:
-      question: 'No, that''s above my paygrade. '
-      answer: 'If you''re not here about rumors, what are you doing here and who
-        invited you? '
+      question: "I didn\u2019t see a story about the beach in the paper? "
+      answer: "Not a beach! I did a reportage on the annual sand castle competition!
+        They move tons of sand from the beach, right to central park so the waves
+        don\u2019t destroy the castles! "
     q2FollowUpQuestion2:
-      question: " I\u2019m here on flirtier business care for a dance? "
-      answer: 'I would, but you know, duties first. '
+      question: 'Sand castle competitions? That sounds like rookie business. '
+      answer: "Don\u2019t say that to the sand castle professionals! I would know\u2026
+        I still find sand behind the closet\u2026 "
     thirdQuestion:
       question: 'Doing many interviews? '
-      answer: 'I was but unfortunately I made a goof and spilled this disgusting
-        champagne on my notepad. Not many had any gossip about Allford anyways, mostly
-        yucks yapping, I feel like a schnook. '
+      answer: 'I was, but unfortunately I made a goof and spilled champagne on my
+        notepad. Not many had any gossip about Allford anyways, mostly yucks yapping,
+        I feel like a schnook. '
     q3FollowUpQuestion1:
-      question: 'Did you get nothing of worth? '
-      answer: 'Some guy said he parked a god damned hot air balloon on the roof!
-        Is that even legal? '
+      question: 'Maybe you could investigate my dance moves? '
+      answer: "Are you inviting me to a dance? That\u2019s pretty forward of you!
+        I\u2019m not someone to shy away from some light hearted flirting. Though
+        sadly duty comes first. I have two girls at home to feed. "
     q3FollowUpQuestion2:
-      question: "You don\u2019t like balloons?  "
-      answer: No, I hate balloons. My cats always pop them in the middle of the night!
+      question: "Oh, I didn\u2019t know you had kids? "
+      answer: "Kids? Ew\u2026 No, cats! I would do anything for my little babies! "
     "hejD\xE5Fras": 'See you in the papers! '
     "hejD\xE5FrasEvent":
       Guid:

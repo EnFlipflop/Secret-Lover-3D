@@ -32,7 +32,7 @@ MonoBehaviour:
       question: Have you tried drinking water?
       answer: . . .
     secondQuestion:
-      question: Did you come here alone?
+      question: Do you have a plus one?
       answer: . . .
     q2FollowUpQuestion1:
       question: So, how do you know Allford?

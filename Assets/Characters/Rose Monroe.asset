@@ -13,61 +13,71 @@ MonoBehaviour:
   m_Name: Rose Monroe
   m_EditorClassIdentifier: 
   characterSystem:
-    characterName: 
-    hejFras: 
+    characterName: Rose Monroe
+    hejFras: Hi there!
     hejFrasEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1097791489
+        Data2: 1243251814
+        Data3: 1504581545
+        Data4: 954488747
+      Path: event:/Rose/Rose Hej
     firstQuestion:
-      question: 
-      answer: 
+      question: You look a bit pale. Everything alright?
+      answer: "Everythin\u2019s fine sugar. The height of these skyscraper just make
+        me a bit squeamish. I\u2019ve always been a bit scared of heights. "
     q1FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Do they have many skyscrapers where you come from? '
+      answer: "No, certainly not darlin\u2019. Down in the south we only have at
+        most three stories. What are we on? The 7th? No, I much prefer the ground. "
     q1FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'Then why come to this party? '
+      answer: "Well I can\u2019t miss a party like this?! As long as I stay away
+        from the windows I\u2019ll be fine! "
     secondQuestion:
-      question: 
-      answer: 
+      question: 'What do you think about the music? '
+      answer: "Eeeh, it\u2019s fine. I do prefer classical. My mama would take me
+        to hear Stravinski. I\u2019ll tell ya, nothin\u2019 beats the sound of a
+        full orchestra!"
     q2FollowUpQuestion1:
-      question: 
-      answer: 
+      question: "How\u2019s the classical scene in New York?"
+      answer: "It\u2019s certainly interesting. Though I would like to hear the classics
+        sometime. I love me some Beethoven! "
     q2FollowUpQuestion2:
-      question: 
-      answer: 
+      question: 'Maybe you could take me to a concert sometime? '
+      answer: 'Maybe I could, tihi! '
     thirdQuestion:
-      question: 
-      answer: 
+      question: 'Is that a pile of sand next to you? '
+      answer: "Oh my gosh, I\u2019m so embarrassed! I took a walk on the beach before
+        coming here and forgot to dump all the sand out. I think I saw that handsome
+        dandy there too\u2026 "
     q3FollowUpQuestion1:
-      question: 
-      answer: 
+      question: 'Is dandy your taste? '
+      answer: "Hmmm, I would say that my taste is\u2026 chickens\u2026 "
     q3FollowUpQuestion2:
-      question: 
-      answer: 
-    "hejD\xE5Fras": 
+      question: "You\u2019re attracted to poultry? "
+      answer: "No no! I like mah partner, submissive\u2026 I think you understand,
+        right? I don\u2019t like it when my flame is too brave and does something
+        stupid\u2026 I would rather have a squamish little thing in my mitts! "
+    "hejD\xE5Fras": "Oh, leavin\u2019 already?"
     "hejD\xE5FrasEvent":
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -578959871
+        Data2: 1316378947
+        Data3: 374557095
+        Data4: 1886000289
+      Path: "event:/Rose/Rose Hejd\xE5"
     paperClick:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1174658839
+        Data2: 1326792120
+        Data3: 878977703
+        Data4: 1845774844
+      Path: event:/Paper_Click
     conversation:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 142373768
+        Data2: 1086129697
+        Data3: -1914390134
+        Data4: 1920067191
+      Path: event:/Rose/Rose Prat

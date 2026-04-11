@@ -1192,6 +1192,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6756563091550017546, guid: 43af1ef5fd442e34f8a26f78468d2fee, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8762229006038330916, guid: 43af1ef5fd442e34f8a26f78468d2fee, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1199,7 +1203,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2518085198084150211, guid: 43af1ef5fd442e34f8a26f78468d2fee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1388540589}
   m_SourcePrefab: {fileID: 100100000, guid: 43af1ef5fd442e34f8a26f78468d2fee, type: 3}
 --- !u!1001 &1245967004
 PrefabInstance:
@@ -1387,6 +1394,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 765907492636984285, guid: 0410d25e5c9f52545bcc2ca3da56479d, type: 3}
   m_PrefabInstance: {fileID: 1318709094}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1388540583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2518085198084150211, guid: 43af1ef5fd442e34f8a26f78468d2fee, type: 3}
+  m_PrefabInstance: {fileID: 1211534833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1388540589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388540583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1001 &1403037166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1829,7 +1855,7 @@ GameObject:
   - component: {fileID: 1918174793}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: carpet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2295,10 +2321,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6644538268420481033, guid: d639b6537f262f34aacd4f194a7d1e15, type: 3}
-      propertyPath: sounds
-      value: 
-      objectReference: {fileID: 11400000, guid: 1f95d0ca3889fc24883f1321ddac4e33, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
