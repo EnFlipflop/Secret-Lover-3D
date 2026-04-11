@@ -1,5 +1,8 @@
+using System.Security.Cryptography;
 using TMPro;
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Person : MonoBehaviour
 {
@@ -64,7 +67,9 @@ public class Person : MonoBehaviour
     {
         if (identifier == UniqueIdentifier)
         {
-            //Instantiate()
+            
+            Instantiate(GameManager.Instance.bloodsplatters[Random.Range(0, GameManager.Instance.bloodsplatters.Length)], 
+                transform.position, Quaternion.Euler(90, Random.Range(0, 360), 0));
             gameObject.SetActive(false);
         }
     }

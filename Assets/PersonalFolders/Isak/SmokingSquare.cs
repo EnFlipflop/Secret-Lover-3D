@@ -16,7 +16,11 @@ public class SmokingSquare : MonoBehaviour
     void Update()
     {
         if (!canSmoke)
-            return; 
+            return;
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            GameManager.Instance.CiggHint();
+        }
 
     }
 
@@ -35,8 +39,5 @@ public class SmokingSquare : MonoBehaviour
         canSmoke = false;
     }
 
-    private void Smoke()
-    {
-        
-    }
+    
 }

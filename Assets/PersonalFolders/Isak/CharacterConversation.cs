@@ -145,4 +145,10 @@ public class CharacterConversation : MonoBehaviour
         button3.GetComponentInParent<Button>().interactable = true;
         onCD = false;
     }
+
+    public void MakeGuess()
+    {
+        Person person = GetComponent<Person>();
+        GameManager.Instance.Guess(person.UniqueIdentifier);
+    }
 }

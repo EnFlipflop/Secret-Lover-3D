@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour
     public Texture[] ciggSprites;
     public LetterScriptable[] letters;
     public Person[] guests;
+    public GameObject[] bloodsplatters;
+    public ResultScriptable result;
     [Header("Character identifiers")]
     [Header("Dick Allford = 1")]
     [Header("Robert Wrong = 2")]
@@ -86,11 +88,11 @@ public class GameManager : MonoBehaviour
     {
         letterInt = Random.Range(0, letters.Length);
         letterText.text = letters[letterInt].LetterText;
+        result.letter = letterInt;
     }
 
-    private void CiggHint()
+    public void CiggHint()
     {
-        
         if (ciggHints > 0)
         { 
             ciggHints--;
@@ -101,5 +103,11 @@ public class GameManager : MonoBehaviour
             
         }
         ciggVisual.texture = ciggSprites[ciggHints];
+    }
+
+    public void Guess(int identifier)
+    {
+        result.win = identifier == letters[letterInt].rightAnswer;
+        //ladda scen
     }
 }
