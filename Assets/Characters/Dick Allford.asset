@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d182538fe153d44aa3d5fe79f21bb4, type: 3}
+  m_Name: Dick Allford
+  m_EditorClassIdentifier: 
+  characterSystem:
+    characterName: Dick Allford
+    hejFras: "Oh? Didn\u2019t see you there."
+    hejFrasEvent:
+      Guid:
+        Data1: -886890451
+        Data2: 1151448236
+        Data3: 55499665
+        Data4: 350021730
+      Path: event:/Dick/Dick Hej
+    firstQuestion:
+      question: "This party is the bees knees! What\u2019s the occasion? "
+      answer: "Didn\u2019t you read the invitation? It\u2019s for my beautiful Barbra,
+        it\u2019s her birthday! Didn\u2019t you get a present you rube!"
+    q1FollowUpQuestion1:
+      question: "I didn\u2019t know you had a wife?"
+      answer: "Not a wife you knucklehead! Barbra is my darling dog, not my bird!?
+        No, I've been single for quite some time\u2026"
+    q1FollowUpQuestion2:
+      question: "Does that mean you\u2019re fishing\u2026 for a date? "
+      answer: "Well\u2026 I\u2026 uh\u2026 I\u2019m pretty shy on dates\u2026 but
+        I\u2019m sure Barbra would like the company! "
+    secondQuestion:
+      question: 
+      answer: 
+    q2FollowUpQuestion1:
+      question: 
+      answer: 
+    q2FollowUpQuestion2:
+      question: 
+      answer: 
+    thirdQuestion:
+      question: 
+      answer: 
+    q3FollowUpQuestion1:
+      question: 
+      answer: 
+    q3FollowUpQuestion2:
+      question: 
+      answer: 
+    "hejD\xE5Fras": 
+    "hejD\xE5FrasEvent":
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    paperClick:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    conversation:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
