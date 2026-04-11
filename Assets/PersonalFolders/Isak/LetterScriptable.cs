@@ -5,5 +5,5 @@ public class LetterScriptable : ScriptableObject
     [TextArea(15,20)]
     public string LetterText;
     public int rightAnswer;
-    public int hint1Kill, hint2Kill, hint3Kill;
+    public int[] hintKills;
 }

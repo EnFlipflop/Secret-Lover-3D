@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -13,10 +14,24 @@ public class GameManager : MonoBehaviour
     [NonSerialized] public bool interacting;
     
     private static GameManager instance;
-
-    public int letters, letterInt;
-    public int ciggHints = 3;
     
+    public TextMeshProUGUI letterText;
+
+    public int letterInt;
+    public int ciggHints = 3;
+    public LetterScriptable[] letters;
+    public Person[] guests;
+    [Header("Character identifiers")]
+    [Header("Dick Allford = 1")]
+    [Header("Robert Wrong = 2")]
+    [Header("Frank too frank Frank = 3")]
+    [Header("Lawrence Douglaws = 4")]
+    [Header("Ann Phaqname = 5")]
+    [Header(" = 6")]
+    [Header(" = 7")]
+    [Header(" = 8")]
+    [Space(5)]
+    public string endOfInspector;
     public static GameManager Instance
     {
         get { return instance; }
@@ -48,6 +63,7 @@ public class GameManager : MonoBehaviour
             camera3D = player.GetComponentInChildren<Camera3D>();
         }
         PickLetter();
+        
     }
 
     public void StopInteracting()
@@ -57,8 +73,8 @@ public class GameManager : MonoBehaviour
 
     private void PickLetter()
     {
-        letterInt = Random.Range(0, letters);
-        Debug.Log(letterInt);
+        letterInt = Random.Range(0, letters.Length);
+        letterText.text = letters[letterInt].LetterText;
     }
 
     private void CiggHint()
@@ -66,6 +82,11 @@ public class GameManager : MonoBehaviour
         if (ciggHints > 0)
         { 
             ciggHints--;
+            foreach (Person person in guests)
+            {
+                person.Die(letters[letterInt].hintKills[ciggHints-1]);
+            }
+            
         }
     }
 }

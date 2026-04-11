@@ -13,6 +13,9 @@ public class Person : MonoBehaviour
     [SerializeField] private GameObject interactText;
     [SerializeField] private GameObject conversationScreen;
 
+    public int UniqueIdentifier;
+    [SerializeField] private GameObject blodpöl;
+    
     private void Start()
     {
         /*meshRenderer = GetComponent<MeshRenderer>();
@@ -56,7 +59,14 @@ public class Person : MonoBehaviour
         interactText.SetActive(true);
         conversationScreen.SetActive(false);
     }
-    
-    
+
+    public void Die(int identifier)
+    {
+        if (identifier == UniqueIdentifier)
+        {
+            //Instantiate()
+            gameObject.SetActive(false);
+        }
+    }
     
 }
