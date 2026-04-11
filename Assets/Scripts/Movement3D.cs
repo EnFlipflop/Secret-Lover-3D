@@ -53,13 +53,11 @@ public class Movement3D : MonoBehaviour
         
         if (!isMoving && currentlyMoving)
         {
-            Debug.Log("Started");
             StartWalking();
         }
         
         if (isMoving && !currentlyMoving)
         {
-            Debug.Log("Stopped");
             StopWalking();
         }
         
@@ -90,11 +88,11 @@ public class Movement3D : MonoBehaviour
 
         if (Physics.Raycast(transform.position, Vector3.down, out hit, rayDistance))
         {
-            if (hit.collider.CompareTag("Stone"))
+            if (hit.collider.CompareTag("stone"))
             {
                 RuntimeManager.StudioSystem.setParameterByName("Material", 0);
             }
-            else if (hit.collider.CompareTag("Carpet"))
+            else if (hit.collider.CompareTag("carpet"))
             {
                 RuntimeManager.StudioSystem.setParameterByName("Material", 1);
             }

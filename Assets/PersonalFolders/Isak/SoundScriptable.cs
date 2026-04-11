@@ -7,6 +7,6 @@ public class SoundScriptable : ScriptableObject
     public EventReference interact;
 
     [Header("UI")] public EventReference UIHover;
-    public EventReference UIClick, PaperClick;
+    public EventReference UIClick, PaperClick, GunShot, Smoking;
 
 }

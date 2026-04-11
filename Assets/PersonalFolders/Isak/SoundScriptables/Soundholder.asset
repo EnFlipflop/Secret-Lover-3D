@@ -60,4 +60,18 @@ MonoBehaviour:
       Data2: 1326792120
       Data3: 878977703
       Data4: 1845774844
-    Path: event:/PaperClick
+    Path: event:/Paper_Click
+  GunShot:
+    Guid:
+      Data1: -1068640957
+      Data2: 1335333423
+      Data3: 432875434
+      Data4: -1370554694
+    Path: event:/PaNG
+  Smoking:
+    Guid:
+      Data1: 184655673
+      Data2: 1321701628
+      Data3: -1105938544
+      Data4: 226525429
+    Path: event:/HintEvent

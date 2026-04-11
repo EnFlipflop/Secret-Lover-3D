@@ -1829,7 +1829,7 @@ GameObject:
   - component: {fileID: 1918174793}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: carpet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2295,6 +2295,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6644538268420481033, guid: d639b6537f262f34aacd4f194a7d1e15, type: 3}
+      propertyPath: sounds
+      value: 
+      objectReference: {fileID: 11400000, guid: 1f95d0ca3889fc24883f1321ddac4e33, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

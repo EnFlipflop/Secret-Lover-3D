@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Security.Cryptography;
+using FMODUnity;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
@@ -18,6 +19,8 @@ public class Person : MonoBehaviour
     [SerializeField] private GameObject conversationScreen;
     private CharacterConversation CC; 
     public int UniqueIdentifier;
+
+    public SoundScriptable sounds;
     //[SerializeField] private GameObject blodpöl;
     
     private void Start()
@@ -79,6 +82,7 @@ public class Person : MonoBehaviour
             
             Instantiate(GameManager.Instance.bloodsplatters[Random.Range(0, GameManager.Instance.bloodsplatters.Length)], 
                 transform.position, Quaternion.Euler(90, Random.Range(0, 360), 0));
+            RuntimeManager.PlayOneShotAttached(sounds.GunShot, gameObject);
             gameObject.SetActive(false);
         }
     }
