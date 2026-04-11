@@ -17,6 +17,7 @@ public class CharacterConversation : MonoBehaviour
     [SerializeField] private float questionCD = 2;
     private bool onCD, hasInteracted;
     [SerializeField] private Button guessButton;
+    public Person person;
 
     public void StartCharacterInteraction()
     {
@@ -43,6 +44,8 @@ public class CharacterConversation : MonoBehaviour
         {
             guessButton.gameObject.SetActive(true);
         }
+
+        person = GetComponentInParent<Person>();
     }
 
     public void QuestionLine1()
@@ -56,12 +59,15 @@ public class CharacterConversation : MonoBehaviour
         {
            case 1: subtitles.text = characterLines.characterSystem.firstQuestion.answer;
                button1.text = characterLines.characterSystem.q1FollowUpQuestion1.question;
+               Prat();
                break;   
            case 2: subtitles.text = characterLines.characterSystem.q1FollowUpQuestion1.answer;
                button1.text = characterLines.characterSystem.q1FollowUpQuestion2.question;
+               Prat();
                break;
            case 3: subtitles.text = characterLines.characterSystem.q1FollowUpQuestion2.answer;
                button1.text = characterLines.characterSystem.firstQuestion.question;
+               Prat();
                break;
            case 4: 
                conversationIndex1 = 0;
@@ -81,12 +87,15 @@ public class CharacterConversation : MonoBehaviour
         {
             case 1: subtitles.text = characterLines.characterSystem.secondQuestion.answer;
                 button2.text = characterLines.characterSystem.q2FollowUpQuestion1.question;
+                Prat();
                 break;   
             case 2: subtitles.text = characterLines.characterSystem.q2FollowUpQuestion1.answer;
                 button2.text = characterLines.characterSystem.q2FollowUpQuestion2.question;
+                Prat();
                 break;
             case 3: subtitles.text = characterLines.characterSystem.q2FollowUpQuestion2.answer;
                 button2.text = characterLines.characterSystem.secondQuestion.question;
+                Prat();
                 break;
             case 4: 
                 conversationIndex2 = 0;
@@ -105,12 +114,15 @@ public class CharacterConversation : MonoBehaviour
         {
             case 1: subtitles.text = characterLines.characterSystem.thirdQuestion.answer;
                 button3.text = characterLines.characterSystem.q3FollowUpQuestion1.question;
+                Prat();
                 break;   
             case 2: subtitles.text = characterLines.characterSystem.q3FollowUpQuestion1.answer;
                 button3.text = characterLines.characterSystem.q3FollowUpQuestion2.question;
+                Prat();
                 break;
             case 3: subtitles.text = characterLines.characterSystem.q3FollowUpQuestion2.answer;
                 button3.text = characterLines.characterSystem.thirdQuestion.question;
+                Prat();
                 break;
             case 4: 
                 conversationIndex3 = 0;
@@ -153,5 +165,16 @@ public class CharacterConversation : MonoBehaviour
     {
         subtitles.text = characterLines.characterSystem.hejDåFras;
         RuntimeManager.PlayOneShot(characterLines.characterSystem.hejDåFrasEvent);
+    }
+
+    public void Leave()
+    {
+        person.OnInteractEnd();
+        GameManager.Instance.interacting = false;
+    }
+
+    private void Prat()
+    {
+        RuntimeManager.PlayOneShot(characterLines.characterSystem.conversation);
     }
 }

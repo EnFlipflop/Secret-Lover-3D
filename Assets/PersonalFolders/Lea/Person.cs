@@ -31,6 +31,7 @@ public class Person : MonoBehaviour
     public void OnHover()
     {
         //meshRenderer.material = outlineMaterial;
+        if (!GameManager.Instance.interacting)
         interactText.SetActive(true);
     }
 
