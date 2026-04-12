@@ -77,6 +77,7 @@ public class Person : MonoBehaviour
 
     public void Die(int identifier)
     {
+        Debug.Log("Die" + identifier + UniqueIdentifier);
         if (identifier == UniqueIdentifier)
         {
             

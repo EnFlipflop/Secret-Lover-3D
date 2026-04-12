@@ -27,14 +27,15 @@ public class GameManager : MonoBehaviour
     public Person[] guests;
     public GameObject[] bloodsplatters;
     public ResultScriptable result;
+    public TextMeshProUGUI hintCounter;
     [Header("Character identifiers")]
     [Header("Dick Allford = 1")]
     [Header("Robert Wrong = 2")]
     [Header("Frank too frank Frank = 3")]
     [Header("Lawrence Douglaws = 4")]
-    [Header("Ann Phaqname = 5")]
-    [Header(" = 6")]
-    [Header(" = 7")]
+    [Header("Ann Phayqename = 5")]
+    [Header("Rose Monroe = 6")]
+    [Header("Charles Dandy = 7")]
     [Header(" = 8")]
     [Space(5)]
     public string endOfInspector;
@@ -70,7 +71,7 @@ public class GameManager : MonoBehaviour
         }
         PickLetter();
         letterText.gameObject.SetActive(false);
-        
+        hintCounter.text = ciggHints.ToString();
     }
 
     private void Update()
@@ -93,9 +94,11 @@ public class GameManager : MonoBehaviour
 
     public void CiggHint()
     {
+        Debug.Log("CiggHint");
         if (ciggHints > 0)
         { 
             ciggHints--;
+            hintCounter.text = ciggHints.ToString();
             foreach (Person person in guests)
             {
                 person.Die(letters[letterInt].hintKills[ciggHints]);

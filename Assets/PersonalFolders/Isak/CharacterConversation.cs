@@ -40,7 +40,7 @@ public class CharacterConversation : MonoBehaviour
             hasInteracted = true;
         }
         guessButton.gameObject.SetActive(false);
-        if (GameManager.Instance.talkedTo == 8)
+        if (GameManager.Instance.talkedTo == 5)
         {
             guessButton.gameObject.SetActive(true);
         }

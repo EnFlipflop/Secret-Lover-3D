@@ -22,6 +22,7 @@ public class Movement3D : MonoBehaviour
     private void Start()
     {
         rb = GetComponentInChildren<Rigidbody>();
+        RuntimeManager.StudioSystem.setParameterByName("Material", 1);
     }
     
     private void FixedUpdate()
@@ -41,6 +42,7 @@ public class Movement3D : MonoBehaviour
 
             if (stepTimer >= stepCD)
             {
+                Debug.Log("Stomp");
                 RuntimeManager.PlayOneShot(sounds.footsteps);
                 stepTimer = 0f;
             }
@@ -69,7 +71,7 @@ public class Movement3D : MonoBehaviour
         if (paramTimer >= paramCD)
         {
             Parameter();
-            stepTimer = 0f;
+            paramTimer = 0f;
         }
     }
 

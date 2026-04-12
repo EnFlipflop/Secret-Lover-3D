@@ -3,15 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="a57e4c43-bdb1-47e4-9abc-e9f8742a92e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonPrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Buttons and subtitle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Buttons and subtitle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterConversation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterConversation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterObjects/LetterObject.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterObjects/LetterObject.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Cinematic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Cinematic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/MainMenuManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/PS2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/PS2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptables/Soundholder.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SoundScriptables/Soundholder.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/PlayerUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/PlayerUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SmokingSquare.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/SmokingSquare.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/cinematic managerTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/cinematic managerTimeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResultManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResultManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement3D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775898547619</updated>
       <workItem from="1775898552137" duration="24000" />
-      <workItem from="1775898599729" duration="30145000" />
+      <workItem from="1775898599729" duration="36898000" />
     </task>
     <servers />
   </component>

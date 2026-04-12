@@ -142,6 +142,7 @@ MonoBehaviour:
   interactText: {fileID: 1825319502000547420}
   conversationScreen: {fileID: 3698182136431467928}
   UniqueIdentifier: 4
+  sounds: {fileID: 11400000, guid: 1f95d0ca3889fc24883f1321ddac4e33, type: 2}
 --- !u!1 &8224336730789350854
 GameObject:
   m_ObjectHideFlags: 0
