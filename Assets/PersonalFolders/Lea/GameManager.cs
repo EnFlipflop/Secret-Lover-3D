@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     [Header("Ann Phayqename = 5")]
     [Header("Rose Monroe = 6")]
     [Header("Charles Dandy = 7")]
-    [Header(" = 8")]
+    [Header("Robert Left = 8")]
     [Space(5)]
     public string endOfInspector;
     public static GameManager Instance

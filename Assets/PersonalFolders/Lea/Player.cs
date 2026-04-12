@@ -5,6 +5,7 @@ public class Player : MonoBehaviour
     [Tooltip("The range at which the player can interact with Interactables")]
     [SerializeField] private float interactRange = 3;
     private Person currentPerson;
+    public GameObject letter, coat;
     
     private void Update()
     {
@@ -35,9 +36,17 @@ public class Player : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                currentPerson.OnInteractEnd();
+                currentPerson?.OnInteractEnd();
                 GameManager.Instance.interacting = false;
+                letter.gameObject.SetActive(false);
+                coat.gameObject.SetActive(true);
             }
+        }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            GameManager.Instance.interacting = true;
+            letter.gameObject.SetActive(true);
+            coat.gameObject.SetActive(false);
         }
     }
 

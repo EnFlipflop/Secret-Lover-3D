@@ -1,16 +1,17 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CinematicEnd : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        StartCoroutine(ChangeScene());
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator ChangeScene()
     {
-        
+        yield return new WaitForSeconds(16);
+        SceneManager.LoadScene("PS2");
     }
 }
