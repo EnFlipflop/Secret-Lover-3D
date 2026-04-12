@@ -3,18 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a57e4c43-bdb1-47e4-9abc-e9f8742a92e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Billboarding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Billboarding.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/PS2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/PS2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people 3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people grey 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people grey 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people grey 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people grey 3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people grey.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people grey.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people light grey 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people light grey 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people light grey 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people light grey 3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people light grey.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people light grey.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Winus/Crowd/Crowd of people.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775898547619</updated>
       <workItem from="1775898552137" duration="24000" />
-      <workItem from="1775898599729" duration="38066000" />
+      <workItem from="1775898599729" duration="39320000" />
     </task>
     <servers />
   </component>

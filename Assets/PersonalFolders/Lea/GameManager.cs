@@ -70,7 +70,8 @@ public class GameManager : MonoBehaviour
             camera3D = player.GetComponentInChildren<Camera3D>();
         }
         PickLetter();
-        letterText.gameObject.SetActive(false);
+        letterText.text = letters[letterInt].LetterText;
+        letterText.gameObject.transform.parent.gameObject.transform.parent.gameObject.SetActive(false);
         hintCounter.text = ciggHints.ToString();
     }
 
