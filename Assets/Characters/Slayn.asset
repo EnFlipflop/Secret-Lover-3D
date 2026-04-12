@@ -17,11 +17,11 @@ MonoBehaviour:
     hejFras: . . .
     hejFrasEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1334338412
+        Data2: 1279138066
+        Data3: 2036117661
+        Data4: 1802908583
+      Path: event:/Slayyyyn
     firstQuestion:
       question: How's it buzzin, cousin?
       answer: . . .
@@ -52,11 +52,11 @@ MonoBehaviour:
     "hejD\xE5Fras": . . .
     "hejD\xE5FrasEvent":
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1334338412
+        Data2: 1279138066
+        Data3: 2036117661
+        Data4: 1802908583
+      Path: event:/Slayyyyn
     paperClick:
       Guid:
         Data1: 1174658839
@@ -66,8 +66,8 @@ MonoBehaviour:
       Path: event:/Paper_Click
     conversation:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1334338412
+        Data2: 1279138066
+        Data3: 2036117661
+        Data4: 1802908583
+      Path: event:/Slayyyyn

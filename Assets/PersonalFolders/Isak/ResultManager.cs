@@ -4,28 +4,28 @@ using UnityEngine.UI;
 
 public class ResultManager : MonoBehaviour
 {
-    public Texture l1w, l1l, l2w, l2l, l3w, l3l;
+    public Texture winBack, loseBack, Anne, Dick, Frank;
     public ResultScriptable result;
-    public RawImage bild;
+    public RawImage bild, bakgrund;
     private void Awake()
     {
         if (result.letter == 1)
         {
-            if (result.win)
-                bild.texture = l1w;
-            else bild.texture = l1l;
+            bild.texture = Anne;
         }
         if (result.letter == 2)
         {
-            if (result.win)
-                bild.texture = l2w;
-            else bild.texture = l2l;
+            bild.texture = Dick;
         }
         if (result.letter == 3)
         {
-            if (result.win)
-                bild.texture = l3w;
-            else bild.texture = l3l;
+            bild.texture = Frank;
+        }
+        if (result.win)
+            bakgrund.texture = winBack;
+        else
+        {
+            bakgrund.texture = loseBack;
         }
         
     }

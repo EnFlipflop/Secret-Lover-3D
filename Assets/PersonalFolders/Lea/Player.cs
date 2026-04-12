@@ -11,6 +11,12 @@ public class Player : MonoBehaviour
     {
         if (!GameManager.Instance.interacting)
         {
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                GameManager.Instance.interacting = true;
+                letter.gameObject.SetActive(true);
+                coat.gameObject.SetActive(false);
+            }
             if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, interactRange) && hit.collider.CompareTag("Person"))
             {
                 currentPerson = hit.collider.GetComponent<Person>();
@@ -21,6 +27,7 @@ public class Player : MonoBehaviour
                     currentPerson.OnInteract();
                     GameManager.Instance.movement3D.StopMoving();
                     GameManager.Instance.interacting = true;
+                    coat.gameObject.SetActive(false);
                 }
             }
             else
@@ -42,12 +49,7 @@ public class Player : MonoBehaviour
                 coat.gameObject.SetActive(true);
             }
         }
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            GameManager.Instance.interacting = true;
-            letter.gameObject.SetActive(true);
-            coat.gameObject.SetActive(false);
-        }
+        
     }
 
     private void OnDrawGizmos()

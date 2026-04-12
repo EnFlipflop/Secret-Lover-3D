@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -30,13 +31,13 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI hintCounter;
     [Header("Character identifiers")]
     [Header("Dick Allford = 1")]
-    [Header("Robert Wrong = 2")]
+    [Header("Robert Left = 2")]
     [Header("Frank too frank Frank = 3")]
     [Header("Lawrence Douglaws = 4")]
     [Header("Ann Phayqename = 5")]
     [Header("Rose Monroe = 6")]
     [Header("Charles Dandy = 7")]
-    [Header("Robert Left = 8")]
+    [Header("Shirley Wright = 8")]
     [Space(5)]
     public string endOfInspector;
     public static GameManager Instance
@@ -112,6 +113,6 @@ public class GameManager : MonoBehaviour
     public void Guess(int identifier)
     {
         result.win = identifier == letters[letterInt].rightAnswer;
-        //ladda scen
+        SceneManager.LoadScene("ResultScreen");
     }
 }

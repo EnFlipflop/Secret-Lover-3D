@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a57e4c43-bdb1-47e4-9abc-e9f8742a92e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Billboarding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/Billboarding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Slayn.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Slayn.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/PS2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/PS2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/ResultManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/ResultManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/ResultScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/ResultScreen.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Lea/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Banks/Desktop/Master.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775898547619</updated>
       <workItem from="1775898552137" duration="24000" />
-      <workItem from="1775898599729" duration="39320000" />
+      <workItem from="1775898599729" duration="41478000" />
     </task>
     <servers />
   </component>
