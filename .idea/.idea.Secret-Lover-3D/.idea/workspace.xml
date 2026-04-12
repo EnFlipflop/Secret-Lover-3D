@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a57e4c43-bdb1-47e4-9abc-e9f8742a92e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secret-Lover-3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterConversation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PersonalFolders/Isak/CharacterConversation.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a57e4c43-bdb1-47e4-9abc-e9f8742a92e4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +37,10 @@
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -105,7 +109,7 @@
       <updated>1775898547619</updated>
       <workItem from="1775898552137" duration="24000" />
       <workItem from="1775898599729" duration="41478000" />
-      <workItem from="1775988178615" duration="217000" />
+      <workItem from="1775988178615" duration="854000" />
     </task>
     <servers />
   </component>
