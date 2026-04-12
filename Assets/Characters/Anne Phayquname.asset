@@ -24,8 +24,9 @@ MonoBehaviour:
       Path: event:/Ann/Ann Hej
     firstQuestion:
       question: "Shouldn\u2019t a cookie like yourself be out dancing? "
-      answer: 'Oh I wish. I can really cook with helium on the dancefloor! In the
-        Bronx they call me the Jive Queen! If I could I would be out all night! '
+      answer: "Oh I wish. I can really cook with helium on the dancefloor! In the
+        Bronx they call me the Jive Queen! If I could I would be out all night! Not
+        that I\u2019m ever up and early in the morning\u2026 "
     q1FollowUpQuestion1:
       question: "Holy mackerel! What\u2019s the best music to dance to? "
       answer: "Well when they start shreddin\u2019 on that licorice stick, ooooh
