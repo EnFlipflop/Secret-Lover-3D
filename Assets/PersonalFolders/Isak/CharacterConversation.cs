@@ -157,7 +157,6 @@ public class CharacterConversation : MonoBehaviour
 
     public void MakeGuess()
     {
-        Person person = GetComponent<Person>();
         GameManager.Instance.Guess(person.UniqueIdentifier);
     }
 
