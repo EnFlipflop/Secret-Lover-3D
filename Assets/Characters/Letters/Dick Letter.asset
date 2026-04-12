@@ -12,6 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6db61ac296f850429f2dc6daef8dd23, type: 3}
   m_Name: Dick Letter
   m_EditorClassIdentifier: 
-  LetterText: 
-  rightAnswer: 0
-  hintKills: 
+  LetterText: "I\u2019ve admired you for a long time, but now I want to make you
+    mine. There is a gala tonight that we\u2019ll both be attending. You\u2019ll
+    have to find me in the crowd, I like playing hard to get\u2026 Ask the notable
+    guest at the party, I\u2019ll be one of them. Here some stuff to look out for:\r\n\r\nI\u2019m
+    sure there will be lots of dancing, but you won\u2019t see me on the dance floor!
+    I\u2019m a terrible dancer, maybe you could teach me someday? The person you
+    are looking for has two left feet\u2026\r\n\r\nIn this world you have to work
+    to get what you want, whatever it takes. I value courage in a person more than
+    anything! Your secret lover is a person who likes when people are brave\u2026\r\n\r\nThere\u2019s
+    two thing that separates us in this world\u2026 cats or dogs? I\u2019m a total
+    dog lover, so find someone who speaks about their doggie fondly\u2026\r\n\r\nSending
+    this letter is a bit scary, since I\u2019m a bit shy about romance\u2026 I wont
+    turn you down if you ask me out, but I might get a bit flustered. Find someone
+    who\u2019s a bit shy around flirting\u2026\r\n\r\nI promise I\u2019ll be the
+    only one who matches this exact description, but talk to as many people as possible.
+    Some people may have one or more matching interests\u2026"
+  rightAnswer: 1
+  hintKills: 080000000700000005000000

@@ -49,7 +49,7 @@ MonoBehaviour:
         been seen in a while and I have a\u2026 suspicion\u2026 "
     q2FollowUpQuestion2:
       question: 'Missing person? Sounds like something for the police. '
-      answer: "Now don\u2019t be hasty! Something has to be done\u2026 outside the
+      answer: "Now don\u2019t be hasty! Somethings has to be done\u2026 outside the
         law.. you get me? "
     thirdQuestion:
       question: 'What did you think of the hors d''oeuvres? '
