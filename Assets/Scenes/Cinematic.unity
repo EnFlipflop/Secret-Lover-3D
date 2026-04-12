@@ -609,6 +609,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 4976816514748055675, guid: 76f0f4fd32605484e9785486d88ed33c, type: 2}
     value: {fileID: 69306908}
+  - key: {fileID: -1623821585198297391, guid: 76f0f4fd32605484e9785486d88ed33c, type: 2}
+    value: {fileID: 1522297878}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1522297880
@@ -638,6 +640,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 423e5e12c0db82d4cb4963014802702c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cutsceneEventRef:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1792465543
 GameObject:
   m_ObjectHideFlags: 0

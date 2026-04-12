@@ -1,9 +1,12 @@
 using System.Collections;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CinematicEnd : MonoBehaviour
 {
+    
+    public EventReference cutsceneEventRef;
     void Start()
     {
         StartCoroutine(ChangeScene());
