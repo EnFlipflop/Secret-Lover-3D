@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6db61ac296f850429f2dc6daef8dd23, type: 3}
-  m_Name: LetterObject
+  m_Name: LetterObject 1
   m_EditorClassIdentifier: 
   LetterText: "I\u2019ve admired you for a long time, but now I want to make you
     mine. There is a gala tonight that we\u2019ll both be attending. You\u2019ll
@@ -30,4 +30,4 @@ MonoBehaviour:
     promise I\u2019ll be the only one who matches this exact description, but talk
     to as many people as possible. Some people may have one or more matching interests\u2026"
   rightAnswer: 5
-  hintKills: 060000000100000004000000
+  hintKills: 000000000000000000000000
