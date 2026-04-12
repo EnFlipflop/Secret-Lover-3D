@@ -1371,12 +1371,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Talk to the different guests to figure out who your secret lover is. You
     can ask every guest different questions in any order and how many times you want.
-    Look at your letter and see if the answers you get match your love letter. OBS!
-    Guests may have matching interests, so make sure to ask as many guests as possible
-    before making your decision\u2026\r\n\r\n\r\nIf you're having trouble figuring
-    out who is your secret lover (or don't want to read), you can go behind the room
-    dividers and take a smoke. This will rule out one of the guests! You have a total
-    of three puffs of your cigarette. Note that the guest who gets \u201Celiminated\u201D
+    Look at your letter and see if the answers you get match your love letter. You
+    must ask at least five people before making your guess. OBS! Guests may have
+    matching interests, so make sure to ask as many guests as possible before making
+    your decision\u2026\r\n\r\n\r\nIf you're having trouble figuring out who is your
+    secret lover (or don't want to read), you can go behind the room dividers and
+    take a smoke. This will rule out one of the guests! You have a total of three
+    puffs of your cigarette. Note that the guest who gets \u201Celiminated\u201D
     will never be your secret lover."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4feee96cd0a2d5a4bba4d13382c0349e, type: 2}
