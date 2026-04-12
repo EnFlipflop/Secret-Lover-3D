@@ -97,7 +97,7 @@ public class Person : MonoBehaviour
         
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        
+        GameManager.Instance.coatIcon.SetActive(true);
         interactText.SetActive(true);
         conversationScreen.SetActive(false);
         Stop = null;

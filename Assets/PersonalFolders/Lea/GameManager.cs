@@ -13,13 +13,13 @@ public class GameManager : MonoBehaviour
     [NonSerialized] public Movement3D movement3D;
     [NonSerialized] public Camera3D camera3D;
 
-    [NonSerialized] public bool interacting;
+    [NonSerialized] public bool interacting = true;
     
     private static GameManager instance;
     
     public TextMeshProUGUI letterText;
     public int talkedTo;
-
+    public GameObject coatIcon;
     public int letterInt;
     public int ciggHints = 3;
     public RawImage ciggVisual;
@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
         }
         PickLetter();
         letterText.text = letters[letterInt].LetterText;
-        letterText.gameObject.transform.parent.gameObject.transform.parent.gameObject.SetActive(false);
+        //letterText.gameObject.transform.parent.gameObject.transform.parent.gameObject.SetActive(false);
         hintCounter.text = ciggHints.ToString();
     }
 

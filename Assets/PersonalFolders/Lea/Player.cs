@@ -6,6 +6,13 @@ public class Player : MonoBehaviour
     [SerializeField] private float interactRange = 3;
     private Person currentPerson;
     public GameObject letter, coat;
+
+    private void Start()
+    {
+        Debug.Log("Started");
+        letter.gameObject.SetActive(true);
+        coat.gameObject.SetActive(false);
+    }
     
     private void Update()
     {

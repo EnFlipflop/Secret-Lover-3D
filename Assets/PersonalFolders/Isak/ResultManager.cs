@@ -9,15 +9,15 @@ public class ResultManager : MonoBehaviour
     public RawImage bild, bakgrund;
     private void Awake()
     {
-        if (result.letter == 1)
+        if (result.letter == 0)
         {
             bild.texture = Anne;
         }
-        if (result.letter == 2)
+        if (result.letter == 1)
         {
             bild.texture = Dick;
         }
-        if (result.letter == 3)
+        if (result.letter == 2)
         {
             bild.texture = Frank;
         }
