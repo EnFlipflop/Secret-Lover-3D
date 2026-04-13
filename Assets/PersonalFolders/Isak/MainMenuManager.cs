@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public GameObject mainMenuUI, settingsUI, tutorialUI;
+    public GameObject mainMenuUI, settingsUI, tutorialUI, creditsUI;
     void Start()
     {
         
@@ -26,10 +26,17 @@ public class MainMenuManager : MonoBehaviour
         mainMenuUI.SetActive(false);
     }
 
+    public void Credits()
+    {
+        creditsUI.SetActive(true);
+        mainMenuUI.SetActive(false);
+    }
+
     public void Back()
     {
         tutorialUI.SetActive(false);
         settingsUI.SetActive(false);
+        creditsUI.SetActive(false);
         mainMenuUI.SetActive(true);
     }
 
