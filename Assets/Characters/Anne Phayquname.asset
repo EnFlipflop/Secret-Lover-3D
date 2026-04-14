@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Anne Phayquname
   m_EditorClassIdentifier: 
   characterSystem:
-    characterName: Anne Phayquname
+    characterName: Anne Phayquename
     hejFras: Oh, are you talking to me?
     hejFrasEvent:
       Guid:

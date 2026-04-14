@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
         Debug.Log("Started");
         letter.gameObject.SetActive(true);
         coat.gameObject.SetActive(false);
+        Cursor.visible = true;
     }
     
     private void Update()
@@ -20,6 +21,8 @@ public class Player : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.T))
             {
+                if (GameManager.Instance.upptagen)
+                    return;
                 GameManager.Instance.interacting = true;
                 letter.gameObject.SetActive(true);
                 coat.gameObject.SetActive(false);
@@ -64,5 +67,5 @@ public class Player : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position + (transform.forward * interactRange));
     }
-    
+
 }

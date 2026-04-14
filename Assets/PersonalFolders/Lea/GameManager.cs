@@ -14,9 +14,10 @@ public class GameManager : MonoBehaviour
     [NonSerialized] public Camera3D camera3D;
 
     [NonSerialized] public bool interacting = true;
-    
+    [NonSerialized] public bool upptagen = false;
+
     private static GameManager instance;
-    
+    public GameObject letter;
     public TextMeshProUGUI letterText;
     public int talkedTo;
     public GameObject coatIcon;

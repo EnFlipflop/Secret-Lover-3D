@@ -21,6 +21,8 @@ public class Person : MonoBehaviour
     public int UniqueIdentifier;
 
     public SoundScriptable sounds;
+
+    private bool canInteractLocal = true;
     //[SerializeField] private GameObject blodpöl;
     
     private void Start()
@@ -35,7 +37,12 @@ public class Person : MonoBehaviour
     {
         //meshRenderer.material = outlineMaterial;
         if (!GameManager.Instance.interacting)
-        interactText.SetActive(true);
+        {
+            if (Stop == null)
+                interactText.SetActive(true);
+        }
+
+        
     }
 
     public void OnHoverEnd()
@@ -46,6 +53,9 @@ public class Person : MonoBehaviour
 
     public void OnInteract()
     {
+        if (!canInteractLocal || GameManager.Instance.interacting)
+            return;
+        GameManager.Instance.upptagen = true;
         GameManager.Instance.movement3D.enabled = false;
         GameManager.Instance.camera3D.enabled = false;
         
@@ -63,6 +73,7 @@ public class Person : MonoBehaviour
     {
         if (Stop == null)
         {
+            canInteractLocal = false;
             Stop = StartCoroutine(stopinteract());
         }
         /*GameManager.Instance.movement3D.enabled = true;
@@ -100,6 +111,10 @@ public class Person : MonoBehaviour
         GameManager.Instance.coatIcon.SetActive(true);
         interactText.SetActive(true);
         conversationScreen.SetActive(false);
+        GameManager.Instance.interacting = false;
+        canInteractLocal = true;
+        GameManager.Instance.upptagen = false;
+        GameManager.Instance.coatIcon.SetActive(true);
         Stop = null;
     }
     
