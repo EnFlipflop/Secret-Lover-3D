@@ -316,6 +316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: champagne glass (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3939445524839649912, guid: ac84fb6ad7e44b24b831818864a8aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07d46daa5fad7de45bd47db7d6506544, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1354,6 +1358,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4859109755551094618, guid: 539534f188d70f24dbe38d01d390e068, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: df89bd613d054c14093030a42888a17f, type: 2}
     - target: {fileID: 919132149155446097, guid: 539534f188d70f24dbe38d01d390e068, type: 3}
       propertyPath: m_Name
       value: screen divider
@@ -1365,7 +1373,7 @@ PrefabInstance:
     - target: {fileID: 5052242399575146785, guid: 539534f188d70f24dbe38d01d390e068, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: fa8659db7c1cc814085176611f804c78, type: 2}
+      objectReference: {fileID: 2100000, guid: acc84cf1c764adc438bd84468f281941, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1720,6 +1728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: champagne glass
       objectReference: {fileID: 0}
+    - target: {fileID: 3939445524839649912, guid: ac84fb6ad7e44b24b831818864a8aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07d46daa5fad7de45bd47db7d6506544, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1799,6 +1811,87 @@ Transform:
   - {fileID: 738339163}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &553749303
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.558
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.21873981
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.499
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8314697
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5555702
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 67.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -107955116091867106, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 087812571cdcab7489042a85ee93d864, type: 2}
+    - target: {fileID: 919132149155446097, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: m_Name
+      value: smoking sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856460705491078056, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fb2ceaabd44328428c11c4f3f73606d, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71d5f2e8f320cac4786f918686319f81, type: 3}
 --- !u!1001 &633092357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2382,6 +2475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: champagne glass (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3939445524839649912, guid: ac84fb6ad7e44b24b831818864a8aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07d46daa5fad7de45bd47db7d6506544, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3254,6 +3351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: champagne glass (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3939445524839649912, guid: ac84fb6ad7e44b24b831818864a8aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07d46daa5fad7de45bd47db7d6506544, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5005,6 +5106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: champagne glass (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3939445524839649912, guid: ac84fb6ad7e44b24b831818864a8aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07d46daa5fad7de45bd47db7d6506544, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5407,6 +5512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: champagne glass (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3939445524839649912, guid: ac84fb6ad7e44b24b831818864a8aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07d46daa5fad7de45bd47db7d6506544, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5787,6 +5896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: champagne glass (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3939445524839649912, guid: ac84fb6ad7e44b24b831818864a8aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07d46daa5fad7de45bd47db7d6506544, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6050,7 +6163,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 8edb2a1723c827145ad86868d5a5702d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6443,6 +6556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: champagne glass (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3939445524839649912, guid: ac84fb6ad7e44b24b831818864a8aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07d46daa5fad7de45bd47db7d6506544, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6649,6 +6766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: champagne glass (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3939445524839649912, guid: ac84fb6ad7e44b24b831818864a8aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07d46daa5fad7de45bd47db7d6506544, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8173,3 +8294,4 @@ SceneRoots:
   - {fileID: 1501465649}
   - {fileID: 2005494872}
   - {fileID: 1115679837}
+  - {fileID: 553749303}
