@@ -1395,7 +1395,11 @@ MonoBehaviour:
   m_text: 'Btw you pause with ''P''
 
 
-    Please don''t ask why'
+    Please don''t ask why
+
+
+    Also, ''spacebar''
+    to skip dialogue'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4feee96cd0a2d5a4bba4d13382c0349e, type: 2}
   m_sharedMaterial: {fileID: -8049307195772267997, guid: 4feee96cd0a2d5a4bba4d13382c0349e, type: 2}

@@ -1146,10 +1146,12 @@ MonoBehaviour:
   button1: {fileID: 4854116434015095096}
   button2: {fileID: 3177405382070340208}
   button3: {fileID: 275372134245684807}
+  leaveButton: {fileID: 9088433811752868085}
   subtitles: {fileID: 1861136754346938672}
   namePlateText: {fileID: 1754050968359823160}
   subtitlesAndNameplate: {fileID: 4943445031589426246}
   questionCD: 2
+  textFinished: 0
   guessButton: {fileID: 9021041734111657515}
   person: {fileID: 0}
 --- !u!1 &6385230204752791889
@@ -1638,6 +1640,7 @@ GameObject:
   - component: {fileID: 2383579782367454515}
   - component: {fileID: 332894422237259090}
   - component: {fileID: 1861136754346938672}
+  - component: {fileID: 6378892903487102499}
   m_Layer: 5
   m_Name: Subtitles
   m_TagString: Untagged
@@ -1763,6 +1766,23 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6378892903487102499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8607463614065674965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c34baecf1d0cca459d0c69d9c796df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charactersPerSecond: 30
+  interpunctuationDelay: 0.5
+  quickSkip: 1
+  skipSpeedup: 10
+  sendDoneDelay: 0.25
 --- !u!1 &8716033322407337229
 GameObject:
   m_ObjectHideFlags: 0

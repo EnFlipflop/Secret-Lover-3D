@@ -71,6 +71,8 @@ public class Person : MonoBehaviour
     private Coroutine Stop;
     public void OnInteractEnd()
     {
+        if (!CC.textFinished)
+            return;
         if (Stop == null)
         {
             canInteractLocal = false;
@@ -103,6 +105,7 @@ public class Person : MonoBehaviour
     {
         CC.End();
         yield return new WaitForSeconds(2f);
+        CC.ResetOnLeave(); 
         GameManager.Instance.movement3D.enabled = true;
         GameManager.Instance.camera3D.enabled = true;
         
